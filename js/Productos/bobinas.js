@@ -1,6 +1,6 @@
-const bobinas = [
+const BOBINAs = [
     {
-        categoria: "bobina",
+        categoria: "BOBINA",
         nombre: "BOBINA DE ENCENDIDO 203-035 TRACKER - SONIC",
         cantidad: 1,
         precioCosto: 400000,
@@ -9,7 +9,7 @@ const bobinas = [
         precioVenta3: 50000,
     },
     {
-        categoria: "bobina",
+        categoria: "BOBINA",
         nombre: "BOBINA DE ENCENDIDO GC4927 CHEVROLET SONIC, TRACKER CON MODULO",
         cantidad: 1,
         precioCosto: 400000,
@@ -18,7 +18,7 @@ const bobinas = [
         precioVenta3: 50000,
     },
     {
-        categoria: "bobina",
+        categoria: "BOBINA",
         nombre: "KTC 201-94 24V",
         cantidad: 2,
         precioCosto: 48000,
@@ -27,7 +27,7 @@ const bobinas = [
         precioVenta3: 7000,
     },
     {
-        categoria: "bobina",
+        categoria: "BOBINA",
         nombre: "BOBINA DE INICION NPC 11767 B. 3P. AVEO",
         cantidad: 2,
         precioCosto: 130000,
@@ -36,7 +36,7 @@ const bobinas = [
         precioVenta3: 20000,
     },
     {
-        categoria: "bobina",
+        categoria: "BOBINA",
         nombre: "BOBINA DE IGNICION 3 PINES, GC4483 SPARK CEITA CORSA MERIVA MONTANA, PRISMA, FIAT",
         cantidad: 1,
         precioCosto: 100000,
@@ -45,7 +45,7 @@ const bobinas = [
         precioVenta3: 35000,
     },
     {
-        categoria: "bobina",
+        categoria: "BOBINA",
         nombre: "BOBINA DE INICION NPC 05276 CORSA 4 PINES",
         cantidad: 2,
         precioCosto: 140000,
@@ -54,7 +54,7 @@ const bobinas = [
         precioVenta3: 35000,
     },
     {
-        categoria: "bobina",
+        categoria: "BOBINA",
         nombre: "BOBINA DE INICION KTC 201-77 12V",
         cantidad: 2,
         precioCosto: 30000,
@@ -63,7 +63,7 @@ const bobinas = [
         precioVenta3: 15000,
     },
     {
-        categoria: "bobina",
+        categoria: "BOBINA",
         nombre: "BOBINA DE INICION NPC 40738 HYUNDAI",
         cantidad: 1,
         precioCosto: 140000,
@@ -72,7 +72,7 @@ const bobinas = [
         precioVenta3: 40000,
     },
     {
-        categoria: "bobina",
+        categoria: "BOBINA",
         nombre: "BOBINA DE INICION AK001 HY ATOS SANTRO,PICANTO",
         cantidad: 1,
         precioCosto: 140000,
@@ -81,7 +81,7 @@ const bobinas = [
         precioVenta3: 35000,
     },
     {
-        categoria: "bobina",
+        categoria: "BOBINA",
         nombre: "BOBINA DE INICION NPC 42109 B. E. DAEWO CIELO",
         cantidad: 1,
         precioCosto: 70000,
@@ -90,7 +90,7 @@ const bobinas = [
         precioVenta3: 25000,
     },
     {
-        categoria: "bobina",
+        categoria: "BOBINA",
         nombre: "BOBINA DE INICION NPC 43064 RENAULT",
         cantidad: 2,
         precioCosto: 90000,
@@ -99,7 +99,7 @@ const bobinas = [
         precioVenta3: 48000,
     },
     {
-        categoria: "bobina",
+        categoria: "BOBINA",
         nombre: "BOBINA DE ENCENDIDO INGETECH UNIVERSAL",
         cantidad: 1,
         precioCosto: 50000,
@@ -108,7 +108,7 @@ const bobinas = [
         precioVenta3: 35000,
     },
     {
-        categoria: "bobina",
+        categoria: "BOBINA",
         nombre: "BOBINA DE INICION NPC - 245105 , NISSAN Y RENAULT",
         cantidad: 1,
         precioCosto: 140000,
@@ -117,7 +117,7 @@ const bobinas = [
         precioVenta3: 25000,
     },
     {
-        categoria: "bobina",
+        categoria: "BOBINA",
         nombre: "BOBINA DE INICION COBALT",
         cantidad: 1,
         precioCosto: 150000,
@@ -126,7 +126,7 @@ const bobinas = [
         precioVenta3: 45000,
     },
     {
-        categoria: "bobina",
+        categoria: "BOBINA",
         nombre: "BOBINA IGNITION AK 0005 HYUNDAI GRANI10 PICANTO 10N",
         cantidad: 1,
         precioCosto: 50000,
@@ -135,7 +135,7 @@ const bobinas = [
         precioVenta3: 10000,
     },
     {
-        categoria: "bobina",
+        categoria: "BOBINA",
         nombre: "BOBINA DE INICION LAPIZ RENAULT",
         cantidad: 1,
         precioCosto: 70000,
@@ -144,7 +144,7 @@ const bobinas = [
         precioVenta3: 30000,
     },
     {
-        categoria: "bobina",
+        categoria: "BOBINA",
         nombre: "BOBINA DE ENCENDIDO GAMMA UNIVERSAL",
         cantidad: 1,
         precioCosto: 45000,
@@ -153,7 +153,7 @@ const bobinas = [
         precioVenta3: 30000,
     },
     {
-        categoria: "bobina",
+        categoria: "BOBINA",
         nombre: "BOBINA DE ENCENDIDO NEW ERA UNIVERSAL",
         cantidad: 3,
         precioCosto: 40000,

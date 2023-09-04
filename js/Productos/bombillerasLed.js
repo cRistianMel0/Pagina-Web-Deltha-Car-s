@@ -1,6 +1,6 @@
 const bombillerasLed = [
     {
-        categoria: "bombilleria led",
+        categoria: "BOMBILLERIA LED",
         nombre: "DGP H4 P43 6500K UNIDAD",
         cantidad: 4,
         precioCosto: 0,
@@ -9,7 +9,7 @@ const bombillerasLed = [
         precioVenta3: 65000,
     },
     {
-        categoria: "bombilleria led",
+        categoria: "BOMBILLERIA LED",
         nombre: "BOSCH H4 LUZ BLANCA UNIDAD",
         cantidad: 10,
         precioCosto: 0,
@@ -18,7 +18,7 @@ const bombillerasLed = [
         precioVenta3: 75000,
     },
     {
-        categoria: "bombilleria led",
+        categoria: "BOMBILLERIA LED",
         nombre: "NARVA H4 P43 MOTO 6500K",
         cantidad: 0,
         precioCosto: 0,
@@ -27,7 +27,7 @@ const bombillerasLed = [
         precioVenta3: 50000,
     },
     {
-        categoria: "bombilleria led",
+        categoria: "BOMBILLERIA LED",
         nombre: "BICOLOR H4 P43",
         cantidad: 10,
         precioCosto: 0,
@@ -36,7 +36,7 @@ const bombillerasLed = [
         precioVenta3: 150000,
     },
     {
-        categoria: "bombilleria led",
+        categoria: "BOMBILLERIA LED",
         nombre: "H1 TIPO BOSCH XJUEGO",
         cantidad: 2,
         precioCosto: 0,
@@ -45,7 +45,7 @@ const bombillerasLed = [
         precioVenta3: 120000,
     },
     {
-        categoria: "bombilleria led",
+        categoria: "BOMBILLERIA LED",
         nombre: "H3 LUZ BLANCA TIPO BOSCH xJUEGO",
         cantidad: 4,
         precioCosto: 0,
@@ -54,7 +54,7 @@ const bombillerasLed = [
         precioVenta3: 120000,
     },
     {
-        categoria: "bombilleria led",
+        categoria: "BOMBILLERIA LED",
         nombre: "H7 BICOLOR X JUEGO",
         cantidad: 5,
         precioCosto: 0,
@@ -63,7 +63,7 @@ const bombillerasLed = [
         precioVenta3: 250000,
     },
     {
-        categoria: "bombilleria led",
+        categoria: "BOMBILLERIA LED",
         nombre: "H7 LUZ BLANCA CON VENTILADOR XJUEGO",
         cantidad: 1,
         precioCosto: 0,
@@ -72,7 +72,7 @@ const bombillerasLed = [
         precioVenta3: 95000,
     },
     {
-        categoria: "bombilleria led",
+        categoria: "BOMBILLERIA LED",
         nombre: "H1 TURBO LED XJUEGO",
         cantidad: 1,
         precioCosto: 0,
@@ -81,7 +81,7 @@ const bombillerasLed = [
         precioVenta3: 95000,
     },
     {
-        categoria: "bombilleria led",
+        categoria: "BOMBILLERIA LED",
         nombre: "1141 FLASHEO BLANCO -1F",
         cantidad: 10,
         precioCosto: 9200,
@@ -90,7 +90,7 @@ const bombillerasLed = [
         precioVenta3: 2800,
     },
     {
-        categoria: "bombilleria led",
+        categoria: "BOMBILLERIA LED",
         nombre: "BOMBILLO 158 RGB MAS CONTROL",
         cantidad: 4,
         precioCosto: 15550,
@@ -100,7 +100,7 @@ const bombillerasLed = [
     },
 
     {
-        categoria: "bombilleria led",
+        categoria: "BOMBILLERIA LED",
         nombre: "MODULO LUPA BLANCA 1.5 W",
         cantidad: 4,
         precioCosto: 2900,
@@ -109,7 +109,7 @@ const bombillerasLed = [
         precioVenta3: 2100,
     },
     {
-        categoria: "bombilleria led",
+        categoria: "BOMBILLERIA LED",
         nombre: "1141 LED FLASHEO BLANCO",
         cantidad: 10,
         precioCosto: 8000,
@@ -118,7 +118,7 @@ const bombillerasLed = [
         precioVenta3: 2000,
     },
     {
-        categoria: "bombilleria led",
+        categoria: "BOMBILLERIA LED",
         nombre: "1034 LED FLASHEO BLANCO",
         cantidad: 10,
         precioCosto: 8000,
@@ -127,7 +127,7 @@ const bombillerasLed = [
         precioVenta3: 2000,
     },
     {
-        categoria: "bombilleria led",
+        categoria: "BOMBILLERIA LED",
         nombre: "1034 BLANCO FIJO",
         cantidad: 10,
         precioCosto: 0,
@@ -136,7 +136,7 @@ const bombillerasLed = [
         precioVenta3: 10000,
     },
     {
-        categoria: "bombilleria led",
+        categoria: "BOMBILLERIA LED",
         nombre: "158 LED",
         cantidad: 46,
         precioCosto: 3500,
@@ -145,7 +145,7 @@ const bombillerasLed = [
         precioVenta3: 1500,
     },
     {
-        categoria: "bombilleria led",
+        categoria: "BOMBILLERIA LED",
         nombre: "MODULO LUPA AMARILLO 1.5 W",
         cantidad: 6,
         precioCosto: 2000,
@@ -154,7 +154,7 @@ const bombillerasLed = [
         precioVenta3: 3000,
     },
     {
-        categoria: "bombilleria led",
+        categoria: "BOMBILLERIA LED",
         nombre: "MODULO LUPA ROJO 1.5 W",
         cantidad: 14,
         precioCosto: 2000,
@@ -163,7 +163,7 @@ const bombillerasLed = [
         precioVenta3: 3000,
     },
     {
-        categoria: "bombilleria led",
+        categoria: "BOMBILLERIA LED",
         nombre: "MODULO LUPA AZUL HIELO 1.5 W",
         cantidad: 40,
         precioCosto: 2000,
@@ -172,7 +172,7 @@ const bombillerasLed = [
         precioVenta3: 3000,
     },
     {
-        categoria: "bombilleria led",
+        categoria: "BOMBILLERIA LED",
         nombre: "MODULO LUPA AZUL 1.5 W",
         cantidad: 11,
         precioCosto: 2000,
@@ -181,7 +181,7 @@ const bombillerasLed = [
         precioVenta3: 3000,
     },
     {
-        categoria: "bombilleria led",
+        categoria: "BOMBILLERIA LED",
         nombre: "MODULO LUPA VERDE 1.5 W",
         cantidad: 4,
         precioCosto: 0,
@@ -190,7 +190,7 @@ const bombillerasLed = [
         precioVenta3: 5000,
     },
     {
-        categoria: "bombilleria led",
+        categoria: "BOMBILLERIA LED",
         nombre: "T5 BLANCO CANBUS",
         cantidad: 20,
         precioCosto: 2500,
@@ -199,7 +199,7 @@ const bombillerasLed = [
         precioVenta3: 1000,
     },
     {
-        categoria: "bombilleria led",
+        categoria: "BOMBILLERIA LED",
         nombre: "T5 3 LED",
         cantidad: 4,
         precioCosto: 2500,
@@ -208,7 +208,7 @@ const bombillerasLed = [
         precioVenta3: 1000,
     },
     {
-        categoria: "bombilleria led",
+        categoria: "BOMBILLERIA LED",
         nombre: "T5 1 LED",
         cantidad: 10,
         precioCosto: 2000,

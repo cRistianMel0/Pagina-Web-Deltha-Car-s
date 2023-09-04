@@ -59,4 +59,4 @@ const varios = [
         precioCosto: 0,
         precioVenta: 6000,
     }
-]
+];

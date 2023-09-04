@@ -1,6 +1,6 @@
 const alternadores = [
     {
-      categoria: "Alternador",
+      categoria: "ALTERNADOR",
       nombre: "ALTERNADOR GAMA C10-C30",
       tipo: "BATERIAS",
       cantidad: 1,
@@ -10,7 +10,7 @@ const alternadores = [
       precioVenta3: 0,
     },
     {
-      categoria: "Alternador",
+      categoria: "ALTERNADOR",
       nombre: "ALTERNADOR R19-9 INY. 80 AMP. 12V",
       tipo: "BATERIAS",
       cantidad: 1,
@@ -20,7 +20,7 @@ const alternadores = [
       precioVenta3: 0,
     },
     {
-      categoria: "Alternador",
+      categoria: "ALTERNADOR",
       nombre: "ALTERNADOR DE AVEO Y OPTRA MOLPOWER 96540542",
       tipo: "BATERIAS",
       cantidad: 1,
@@ -30,7 +30,7 @@ const alternadores = [
       precioVenta3: 90000,
     },
     {
-      categoria: "Alternador",
+      categoria: "ALTERNADOR",
       nombre: "ALTERANDOR DE CORSA TP105 AMP.",
       tipo: "BATERIAS",
       cantidad: 1,
@@ -40,7 +40,7 @@ const alternadores = [
       precioVenta3: 80000,
     },
     {
-      categoria: "Alternador",
+      categoria: "ALTERNADOR",
       nombre: "ALTERNADOR AP. HYUNDAI ATOS",
       tipo: "BATERIAS",
       cantidad: 1,
@@ -50,7 +50,7 @@ const alternadores = [
       precioVenta3: 70000,
     },
     {
-      categoria: "Alternador",
+      categoria: "ALTERNADOR",
       nombre: "ALTERNADOR DE SPRINT 55 AMP.",
       tipo: "BATERIAS",
       cantidad: 1,
@@ -60,7 +60,7 @@ const alternadores = [
       precioVenta3: 100000,
     },
     {
-      categoria: "Alternador",
+      categoria: "ALTERNADOR",
       nombre: "ALTERNADOR GAMA TIPO BOSH 120 AMP",
       tipo: "BATERIAS",
       cantidad: 1,

@@ -138,7 +138,7 @@ const arranques = [
       precioVenta3: 2000,
     },
     {
-      categoria: "arranque",
+      categoria: "ARRANQUE",
       nombre: "BUJE 31 EN 3X",
       cantidad: 7,
       precioCosto: 2500,

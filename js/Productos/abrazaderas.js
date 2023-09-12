@@ -92,3 +92,5 @@ const ABRAZADERAs = [
       ganancia: 8000,
     },
   ];
+
+  export default abrazaderas;

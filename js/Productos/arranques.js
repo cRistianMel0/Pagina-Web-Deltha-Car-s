@@ -1,6 +1,6 @@
-const arranques = [
+const ARRANQUEs = [
     {
-      categoria: "arranque",
+      categoria: "ARRANQUE",
       nombre: "ARRANQUE GAMA PARA SUZUKY SPRINT SWIFT",
       tipo: "baterias",
       cantidad: 1,
@@ -10,7 +10,7 @@ const arranques = [
       precioVenta3: 90000,
     },
     {
-      categoria: "arranque",
+      categoria: "ARRANQUE",
       nombre: "ARRANQUE RENAULT 9 CARBURADOR",
       tipo: "baterias",
       cantidad: 1,
@@ -20,7 +20,7 @@ const arranques = [
       precioVenta3: 0,
     },
     {
-      categoria: "arranque",
+      categoria: "ARRANQUE",
       nombre: "ARRANQUE GAMA PARA MAZDA 323, 626",
       tipo: "baterias",
       cantidad: 1,
@@ -30,7 +30,7 @@ const arranques = [
       precioVenta3: 0,
     },
     {
-      categoria: "arranque",
+      categoria: "ARRANQUE",
       nombre: "PINES DE ARRANQUE",
       cantidad: 7,
       precioCosto: 5000,
@@ -39,7 +39,7 @@ const arranques = [
       precioVenta3: 2000,
     },
     {
-      categoria: "arranque",
+      categoria: "ARRANQUE",
       nombre: "BUJE DE ARRANQUE 15 ESTANDAR",
       cantidad: 8,
       precioCosto: 2500,
@@ -48,7 +48,7 @@ const arranques = [
       precioVenta3: 2000,
     },
     {
-      categoria: "arranque",
+      categoria: "ARRANQUE",
       nombre: "BUJE DE ARRANQUE 15 1X",
       cantidad: 10,
       precioCosto: 2500,
@@ -57,7 +57,7 @@ const arranques = [
       precioVenta3: 2000,
     },
     {
-      categoria: "arranque",
+      categoria: "ARRANQUE",
       nombre: "BUJE 9 EN ESTANDAR",
       cantidad: 20,
       precioCosto: 2500,
@@ -66,7 +66,7 @@ const arranques = [
       precioVenta3: 2000,
     },
     {
-      categoria: "arranque",
+      categoria: "ARRANQUE",
       nombre: "BUJE 10 EN 2X",
       cantidad: 7,
       precioCosto: 2500,
@@ -75,7 +75,7 @@ const arranques = [
       precioVenta3: 2000,
     },
     {
-      categoria: "arranque",
+      categoria: "ARRANQUE",
       nombre: "BUJE 9 EN 1X",
       cantidad: 7,
       precioCosto: 2500,
@@ -84,7 +84,7 @@ const arranques = [
       precioVenta3: 2000,
     },
     {
-      categoria: "arranque",
+      categoria: "ARRANQUE",
       nombre: "BUJE 10 EN 3X",
       cantidad: 9,
       precioCosto: 2500,
@@ -93,7 +93,7 @@ const arranques = [
       precioVenta3: 2000,
     },
     {
-      categoria: "arranque",
+      categoria: "ARRANQUE",
       nombre: "BUJE 9 EN 2X",
       cantidad: 10,
       precioCosto: 2500,
@@ -102,7 +102,7 @@ const arranques = [
       precioVenta3: 2000,
     },
     {
-      categoria: "arranque",
+      categoria: "ARRANQUE",
       nombre: "BUJE 31 EN 1X",
       cantidad: 5,
       precioCosto: 2500,
@@ -111,7 +111,7 @@ const arranques = [
       precioVenta3: 2000,
     },
     {
-      categoria: "arranque",
+      categoria: "ARRANQUE",
       nombre: "BUJE 19 EN 3X",
       cantidad: 3,
       precioCosto: 2500,
@@ -120,7 +120,7 @@ const arranques = [
       precioVenta3: 2000,
     },
     {
-      categoria: "arranque",
+      categoria: "ARRANQUE",
       nombre: "BUJE 19 EN 2X",
       cantidad: 11,
       precioCosto: 2500,
@@ -129,7 +129,7 @@ const arranques = [
       precioVenta3: 2000,
     },
     {
-      categoria: "arranque",
+      categoria: "ARRANQUE",
       nombre: "BUJE 31 EN 2X",
       cantidad: 3,
       precioCosto: 2500,

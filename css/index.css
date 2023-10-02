@@ -1,3 +1,41 @@
-body{
-    background-color:rgb(113,111,111);
+.title{
+    font-family: 'Teko',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 7vw;
+    letter-spacing: 0.05em;
+    line-height: 0.9em;
+    text-shadow: 0em 0.18em 0.27em rgba(0,0,0,0.38);
+    padding-top: 150px;
+}
+
+.descripcion-delta{
+    font-size: 15px;
+}
+
+.services{
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    font-size: 10px;
+    padding: 30px;
+}
+
+.descripcion-div{
+    width: 700px;
+    padding-top: 5px;
+}
+
+.services-section{
+    padding-top: 50px;
+}
+
+.service-description{
+    font-size: 12px;
+}
+
+.seccion-hero{
+    background-image: radial-gradient(circle at center,rgba(135,167,209,0) 0%,#03191e 85%),url(https://deltacars.es/wp-content/uploads/2021/06/T8.jpg)!important;
+    height: 550px;
 }

@@ -1,0 +1,30 @@
+/* Header */
+.header-span-deltha{
+    color: white;
+    transition: 0.5s;
+}
+
+.header-span-car{
+    color: #FF0000;
+    transition: 0.5s;
+}
+.header-span-deltha:hover{
+    color: #FF0000;
+}
+
+.header-span-car:hover{
+    color: white;
+}
+
+.link-pages{
+    transition: 0.5s;
+    color: white;
+}
+
+.link-pages:hover{
+    color: #FF0000;
+}
+
+.et_pb_blurb_container{
+    margin-left: 20px;
+}

@@ -45,7 +45,68 @@
     justify-content: center;
 }
 
+
+
 /* Seccion ofertas empresa */
+
+.et_pb_text_6 h2, .et_pb_text_3 h2, .et_pb_text_7 h2 {
+    font-family: 'Teko',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 96px;
+}
+
+.et_pb_section {
+    position: relative;
+    background-color: #fff;
+    background-position: 50%;
+    background-size: 100%;
+    background-size: cover;
+}
+
+.et_pb_section_3.et_pb_section, .et_pb_section_5.et_pb_section {
+    padding-top: 80px;
+    padding-right: 0px;
+    padding-bottom: 80px;
+    padding-left: 0px;
+}
+
+/* Stock */
+
+.et_pb_section.et_pb_section_3 {
+    max-width: 800px; /* Establece un ancho máximo para el contenido */
+    width: 100%;
+}
+
+.car-button{
+    font-style: none;
+}
+
+
+/* Financiacion */
+
+.et_pb_text_5 h2 {
+    font-family: 'Teko',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 9vw;
+    color: #ffffff!important;
+    line-height: 1.2em;
+}
+
+.trian {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    clip-path: polygon(0% 0%, 100% 0%, 50% 30%);
+    background-color: #ffffff;
+  }
+  
+  
+
+
+
+
 /* Original: https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&#038;subset=latin,latin-ext&#038;display=swap */
 /* User Agent: Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Safari/538.1 Daum/4.1 */
 @font-face {
@@ -1083,81 +1144,6 @@ body {
 
 .has-x-large-font-size {
     font-size: var(--wp--preset--font-size--x-large) !important;
-}
-
-/*!
-Theme Name: Divi
-Theme URI: http://www.elegantthemes.com/gallery/divi/
-Version: 4.19.0
-Description: Smart. Flexible. Beautiful. Divi is the most powerful theme in our collection.
-Author: Elegant Themes
-Author URI: http://www.elegantthemes.com
-License: GNU General Public License v2
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-*/
-a,
-abbr,
-acronym,
-address,
-applet,
-b,
-big,
-blockquote,
-body,
-center,
-cite,
-code,
-dd,
-del,
-dfn,
-div,
-dl,
-dt,
-em,
-fieldset,
-font,
-form,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-html,
-i,
-iframe,
-img,
-ins,
-kbd,
-label,
-legend,
-li,
-object,
-ol,
-p,
-pre,
-q,
-s,
-samp,
-small,
-span,
-strike,
-strong,
-sub,
-sup,
-tt,
-u,
-ul,
-var {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    vertical-align: baseline;
-    background: transparent
 }
 
 body {

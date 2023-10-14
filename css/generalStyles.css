@@ -49,6 +49,9 @@
     margin-left: 20px;
 }
 
+.right {
+    justify-content: flex-end;
+  }
 /* Footer */
 
 #main-footer {

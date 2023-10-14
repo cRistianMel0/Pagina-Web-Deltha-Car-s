@@ -18,13 +18,13 @@
     border: 2px solid white;
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
-    width: 700px;
+    max-width: 700px;
     font-size: 10px;
     padding: 30px;
 }
 
 .descripcion-div {
-    width: 700px;
+    max-width: 700px;
     padding-top: 5px;
 }
 
@@ -43,6 +43,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 

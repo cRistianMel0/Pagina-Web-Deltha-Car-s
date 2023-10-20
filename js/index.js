@@ -35,4 +35,4 @@ document.addEventListener('DOMContentLoaded', function() {
       contenedor.appendChild(card);
     });
   });
-  
+

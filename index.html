@@ -22,6 +22,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+
+  <!-- Jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 
@@ -382,13 +385,18 @@
           <h1 class="mision-vision-title">Nuestra Misión y Visión</h1>
         </div>
         <div>
-          <p class="text-gray">En Deltha Car's nos dedicamos apasionadamente a brindar un servicio excepcional y atención al cliente inigualable. Buscamos las soluciones más óptimas y ofrecemos asesorías expertas, proporcionando repuestos de la más alta calidad con un respaldo insuperable para su vehículo.</p>
+          <p class="text-gray">En Deltha Car's nos dedicamos apasionadamente a brindar un servicio excepcional y
+            atención al cliente inigualable. Buscamos las soluciones más óptimas y ofrecemos asesorías expertas,
+            proporcionando repuestos de la más alta calidad con un respaldo insuperable para su vehículo.</p>
         </div>
         <div>
-          <p class="text-danger">Nuestra visión es destacarnos como líderes indiscutibles en el Valle de Tenza y sus alrededores en la comercialización de partes y accesorios automotrices. Lo logramos al mantener precios competitivos sin comprometer la calidad de nuestros repuestos y servicios. Estamos en constante evolución, a la vanguardia en cada asesoría que brindamos.</p>
+          <p class="text-danger">Nuestra visión es Identificarnos por el excelente servicio al consumidor y
+            convirtiéndonos para el año 2028 en líderes del Valle de Tenza y alrededores en comercialización de partes y
+            accesorios automotrices brindando cómodos precios sin bajar la calidad de los repuestos y el servicio; y
+            estar a la vanguardia en cada asesoría suministrada.</p>
         </div>
       </div>
-  
+
       <div class="animate-right d-flex justify-content-center align-items-center">
         <div>
           <div class="container.img d-flex justify-content-center align-items-center">
@@ -400,9 +408,9 @@
       </div>
     </div>
   </div>
-  
 
-  
+
+
 
 
 
@@ -478,6 +486,21 @@
       </div>
     </div>
   </footer>
+  <script>
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+        var elementTop = $(".animate-right").offset().top;
+
+        if (elementTop < windowBottom) {
+          $(".animate-right").addClass("slideInRight"); // Agrega la animación
+        }
+      });
+    });
+
+  </script>
+
+
 
 
 </body>

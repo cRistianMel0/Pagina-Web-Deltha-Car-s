@@ -1,0 +1,124 @@
+.header-container {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.753);
+    margin-top: 86px;
+    height: 250px;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.84) 0%, rgb(255, 255, 255) 100%), url(https://deltacars.es/wp-content/uploads/2019/07/car-dealer-39.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header-container h1 {
+    font-family: 'Teko', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 9vw;
+    color: #000000!important;
+    letter-spacing: 0.05em;
+    line-height: 0.9em;
+    text-shadow: 0em 0.18em 0.27em rgba(0, 0, 0, 0.24);
+}
+
+.title-container {
+    text-align: center;
+}
+
+.trian {
+    position: absolute;
+    bottom: -90px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 0;
+    border-left: 50vw solid transparent;
+    border-right: 50vw solid transparent;
+    border-top: 90px solid #ffffff;
+}
+
+.header-description{
+    font-size: 20px;
+    color: #232a39;
+}
+
+/* info */
+.big-info-car-container{
+    height: 650px;
+    background-image: linear-gradient(180deg,rgba(27,31,37,0.6) 0%,#1b1f25 100%),url(https://deltacars.es/wp-content/uploads/2019/07/car-dealer-26.jpg)!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info-title{
+    font-family: 'Teko', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 100;
+    font-size: 5vw;
+    color: #ffffff!important;
+    letter-spacing: 0.05em;
+    line-height: 0.9em;
+    text-shadow: 0em 0.18em 0.27em rgba(0, 0, 0, 0.24);
+}
+
+.pixel-adjust{
+    margin-top: 150px;
+}
+
+.steps-tilte{
+    font-family: 'Teko', Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 100;
+    font-size: 2vw;
+    color: #ffffff!important;
+    letter-spacing: 0.05em;
+    line-height: 0.9em;
+    text-shadow: 0em 0.18em 0.27em rgba(0, 0, 0, 0.24);
+}
+
+.step-info{
+    color: white;
+}
+
+/* oca container */
+.oca-container{
+    height: 400px;
+}
+
+.back-color{
+    background-color: #f4f4f4;
+    height: 200px;
+    border-radius: 20px 20px 20px 20px;
+    max-width: 1000px;
+}
+
+.btn-stock{
+    height: 70px;
+    width: 200px;
+    transition: 1s;
+    font-size: 20px;
+    background-color: red;
+}
+
+.btn-stock:hover{
+    background-color: rgb(215, 78, 78);
+}
+
+.link{
+    text-decoration: none ;
+    color: white;
+}
+
+.bi-arrow-right {
+    opacity: 0; /* Inicialmente oculto */
+    transition: opacity 1s; /* Animar la opacidad */
+}
+
+.btn-stock:hover .bi-arrow-right {
+    opacity: 1; /* Mostrar en hover */
+}
+
+.oca-title{
+    font-family: 'Teko',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+
+

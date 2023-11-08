@@ -1,0 +1,132 @@
+.header-contact {
+  text-align: center;
+  height: 500px;
+  margin-top: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.9) 0%,
+      #ffffff 100%
+    ),
+    url(https://deltacars.es/wp-content/uploads/2019/07/car-dealer-35.jpg) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100%;
+}
+
+.title-container {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00000023;
+}
+
+h1 {
+  font-family: "Teko", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 6.5rem;
+  color: #ffffff !important;
+  letter-spacing: 0.05em;
+  line-height: 0.9em;
+  text-shadow: 0em 0.18em 0.27em rgba(0, 0, 0, 0.24);
+}
+
+.form-container {
+  background-image: linear-gradient(
+      180deg,
+      rgba(27, 31, 37, 0.3) 0%,
+      #1b1f25 100%
+    ),
+    url(https://deltacars.es/wp-content/uploads/2019/07/car-dealer-26.jpg) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 800px;
+  max-height: fit-content;
+}
+
+.left-column {
+  margin-top: -90px;
+  background-image: linear-gradient(
+    190deg,
+    #c10f1b 85%,
+    rgba(255, 255, 255, 0) 85%
+  );
+  height: 750px;
+  width: 487px;
+}
+.subtitle-info {
+  font-family: "Teko", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.2em;
+  color: white;
+}
+
+.description-sub {
+  color: white;
+}
+
+.span-sub-info {
+  color: white;
+  font-weight: bold;
+  margin-left: 45px;
+}
+
+.center-left-column {
+  margin-top:50px;
+  margin-left: 50px;
+}
+
+.subtitle-info-large {
+  font-family: "Teko", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 500;
+  font-size: 3.5rem;
+  line-height: 1.2em;
+  color: white;
+}
+
+.input-transpa {
+  background-color: rgba(255, 255, 255, 0.418);
+  color: rgb(0, 0, 0);
+  border-radius: 0 0 0 0 ;
+  border: none;
+}
+
+
+.center-content{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.privaci-check{
+    font-size: 1.2rem;
+}
+
+.submit-form{
+    background-color: white;
+    width: 140px;
+    height: 60px;
+    margin-top: 20px;
+    color: red;
+    border-radius: 20px 20px 20px 20px;
+    border: none;
+    font-family: "Teko", Helvetica, Arial, Lucida, sans-serif;
+    font-size: 30px;
+    letter-spacing: 5px;
+    transition: 1s;
+}
+
+.submit-form:hover{
+    background-color: red;
+    color: white;
+}
+
+.policy-txt{
+    color: gray;
+}

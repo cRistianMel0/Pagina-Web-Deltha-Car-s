@@ -42,7 +42,7 @@
 
 /* info */
 .big-info-car-container{
-    height: 680px;
+    height: 900px;
     background-image: linear-gradient(180deg,rgba(27,31,37,0.6) 0%,#1b1f25 100%),url(https://deltacars.es/wp-content/uploads/2019/07/car-dealer-26.jpg)!important;
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,7 +51,7 @@
 .info-title{
     font-family: 'Teko', Helvetica, Arial, Lucida, sans-serif;
     font-weight: 100;
-    font-size: 5vw;
+    font-size: 6rem;
     color: #ffffff!important;
     letter-spacing: 0.05em;
     line-height: 0.9em;
@@ -65,7 +65,7 @@
 .steps-tilte{
     font-family: 'Teko', Helvetica, Arial, Lucida, sans-serif;
     font-weight: 100;
-    font-size: 2vw;
+    font-size: 1.5rem;
     color: #ffffff!important;
     letter-spacing: 0.05em;
     line-height: 0.9em;

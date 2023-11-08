@@ -42,7 +42,7 @@
 
 /* info */
 .big-info-car-container{
-    height: 650px;
+    height: 680px;
     background-image: linear-gradient(180deg,rgba(27,31,37,0.6) 0%,#1b1f25 100%),url(https://deltacars.es/wp-content/uploads/2019/07/car-dealer-26.jpg)!important;
     background-repeat: no-repeat;
     background-size: cover;
@@ -83,10 +83,9 @@
 
 .back-color{
     background-color: #f4f4f4;
-    height: 200px;
+    max-height: 360px;
     border-radius: 20px 20px 20px 20px;
     max-width: 1000px;
-    height: 250px;
 }
 
 .btn-stock{
@@ -106,14 +105,6 @@
     color: white;
 }
 
-.bi-arrow-right {
-    opacity: 0; /* Inicialmente oculto */
-    transition: opacity 1s; /* Animar la opacidad */
-}
-
-.btn-stock:hover .bi-arrow-right {
-    opacity: 1; /* Mostrar en hover */
-}
 
 .oca-title{
     font-family: 'Teko',Helvetica,Arial,Lucida,sans-serif;

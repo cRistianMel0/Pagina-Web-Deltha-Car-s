@@ -82,8 +82,9 @@
 }
 
 .back-color{
-    background-color: #efe0e0;
+    background-color: #dfdfdf;
     max-height: 360px;
+    min-height: 150px;
     border-radius: 20px 20px 20px 20px;
     max-width: 1000px;
 }
@@ -97,7 +98,7 @@
 }
 
 .btn-stock:hover{
-    background-color: rgb(215, 78, 78);
+    background-color: rgb(243, 243, 243);
 }
 
 .link{

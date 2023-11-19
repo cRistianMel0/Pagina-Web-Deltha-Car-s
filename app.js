@@ -1,6 +1,7 @@
 const express = require('express');
 const ejs = require('ejs');
 const path = require('path');
+const routes = require('./routes/routes')
 const ABRAZADERAS = require('./public/js/Productos/abrazaderas');
 const alternadores = require('./public/js/Productos/alternadores');
 
@@ -12,22 +13,8 @@ app.set('view engine', 'ejs');
 app.engine('ejs', ejs.renderFile);
 
 
-/* Rutas */
-app.get('/', (req, res) => {
-    res.render('index');
-});
-
-app.get('/stock', (req, res) => {
-    res.render('stock');
-});
-
-app.get('/financiacion', (req, res) => {
-    res.render('financiacion');
-});
-
-app.get('/contact', (req, res) => {
-    res.render('contact');
-});
+// Usa las rutas definidas en 'routes.js'
+app.use('/', routes);
 
 // Configuración para servir archivos estáticos
 app.use(express.static(__dirname + '/public'));// Ruta a CSS

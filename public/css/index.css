@@ -9,7 +9,7 @@
     padding-top: 150px;
 }
 
-.mision-vision-title{
+.mision-vision-title {
     font-family: 'Teko', Helvetica, Arial, Lucida, sans-serif;
     font-weight: 500;
     text-transform: uppercase;
@@ -60,8 +60,10 @@
 
 /* Seccion ofertas empresa */
 
-.et_pb_text_6 h2, .et_pb_text_3 h2, .et_pb_text_7 h2 {
-    font-family: 'Teko',Helvetica,Arial,Lucida,sans-serif;
+.et_pb_text_6 h2,
+.et_pb_text_3 h2,
+.et_pb_text_7 h2 {
+    font-family: 'Teko', Helvetica, Arial, Lucida, sans-serif;
     font-size: 96px;
 }
 
@@ -73,7 +75,8 @@
     background-size: cover;
 }
 
-.et_pb_section_3.et_pb_section, .et_pb_section_5.et_pb_section {
+.et_pb_section_3.et_pb_section,
+.et_pb_section_5.et_pb_section {
     padding-top: 80px;
     padding-right: 0px;
     padding-bottom: 80px;
@@ -83,11 +86,12 @@
 /* Stock */
 
 .et_pb_section.et_pb_section_3 {
-    max-width: 800px; /* Establece un ancho máximo para el contenido */
+    max-width: 800px;
+    /* Establece un ancho máximo para el contenido */
     width: 100%;
 }
 
-.car-button{
+.car-button {
     font-style: none;
 }
 
@@ -95,36 +99,37 @@
 /* Financiacion */
 
 .et_pb_text_5 h2 {
-    font-family: 'Teko',Helvetica,Arial,Lucida,sans-serif;
+    font-family: 'Teko', Helvetica, Arial, Lucida, sans-serif;
     font-weight: 500;
     text-transform: uppercase;
     font-size: 9vw;
-    color: #ffffff!important;
+    color: #ffffff !important;
     line-height: 1.2em;
 }
 
 .trian {
+    margin-top: -2px;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 50%;
+    height: 49%;
     clip-path: polygon(0% 0%, 100% 0%, 50% 30%);
     background-color: #ffffff;
-  }
+}
 
-  /* Mision Vision */
+/* Mision Vision */
 
-.mision-vision-container{
+.mision-vision-container {
     display: grid;
     grid-template-columns: 50% 50%;
 }
 
-.mision-vision-container{
+.mision-vision-container {
     margin: 40px;
 }
 
-.mision-vision-title{
+.mision-vision-title {
     font-size: 2.5rem;
 }
 
@@ -159,7 +164,7 @@
 
 div.et_pb_section.et_pb_section_4 {
 
-    background-image: linear-gradient(180deg,rgba(27,31,37,0.3) 0%,#1b1f25 100%),url(https://deltacars.es/wp-content/uploads/2019/12/Audi-TT-scaled.jpg)!important;
+    background-image: linear-gradient(180deg, rgba(27, 31, 37, 0.3) 0%, #1b1f25 100%), url(https://deltacars.es/wp-content/uploads/2019/12/Audi-TT-scaled.jpg) !important;
 }
 
 @font-face {
@@ -2912,6 +2917,7 @@ header.et-l.et-l--header:after {
         opacity: 1
     }
 }
+
 @media (min-width: 981px) {
 
     .et_pb_gutters3 .et_pb_column,

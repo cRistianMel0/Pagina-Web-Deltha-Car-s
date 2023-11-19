@@ -28,43 +28,8 @@
 </head>
 
 <body>
-  <!-- Nav -->
-  <section>
-    <header>
-      <nav class="navbar navbar-expand-lg bg-dark fixed-top">
-        <div class="container-fluid">
-          <div class="container-logo">
-            <a class="navbar-brand" href="#">
-              <img class="nav-logo" src="../img/logoD.png">
-              <span class="header-span-deltha">DELTHA</span>
-              <span class="header-span-car">CARS</span></span>
-            </a>
-          </div>
-          <button class="navbar-toggler drop-down-button" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white"
-                class="bi bi-chevron-double-down" viewBox="0 0 16 16">
-                <path fill-rule="evenodd"
-                  d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
-                <path fill-rule="evenodd"
-                  d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
-              </svg>
-            </span>
-          </button>
-          <div class="flex-row-reverse container-fluid collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto">
-              <a class="link-pages nav-link" href="../index.html">Inicio</a>
-              <a class="link-pages nav-link" href="./stock.html">Stock DELTHA CARS</a>
-              <a class="link-pages nav-link" href="./financiacion.html">Financiación</a>
-              <a class="link-pages nav-link" href="#">Contacto</a>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </header>
-  </section>
+
+  <%- include('./shared/nav.ejs') %>
 
   <section class="header-contact">
     <div class="title-container">

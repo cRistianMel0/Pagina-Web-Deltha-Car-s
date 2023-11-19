@@ -71,3 +71,4 @@ const alternadores = [
     },
   ];
   
+module.exports = alternadores;

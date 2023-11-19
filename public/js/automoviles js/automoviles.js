@@ -1,4 +1,4 @@
-const automovilesc = [
+const automoviles = [
     {
         id: 1,
         nombre: "HONDA CIVIC 2.2 IDTEC SPORT",
@@ -9,7 +9,7 @@ const automovilesc = [
         kilometros: "148.000 Kms",
         motor: "2.2 cc 150 cv Diese",
         cambio: "Manual",
-        descripcion: "Impecable Honda Civic 2.2 i-DTEC 150cv 5p, único dueño, revisiones en casa oficial Honda, dispone de: Volante multifunción, ordenador de a bordo, luces diurnas, asistente de arranque en pendiente, usb, aux, radio cd/mp3, modo eco, start&stop, espejos eléctricos abatibles, manos libres parrot, climatizador bi zona, sensor de lluvia y sensor de luz, ABS, ESP, (motor distribución por cadena, sin mantenimiento) etc…Al contado 11.900 € Financiado 10.900€ consulte condiciones de financiación, Se acepta coche o moto como parte de pago. Entregamos tu vehículo en cualquier punto de la península, en Donostia-San Sebastián."
+        descripcion: "Impecable Honda Civic 2.2 i-DTEC 150cv 5p, único dueño, revisiones en casa oficial Honda, dispone de: Volante multifunción, ordenador de a bordo, luces diurnas, asistente de arranque en pendiente, usb, aux, radio cd/mp3, modo eco, start&stop, espejos eléctricos abatibles, manos libres parrot, climatizador bi zona, sensor de lluvia y sensor de luz, ABS, ESP, (motor distribución por cadena, sin mantenimiento) etc. Al contado 11.900 € Financiado 10.900€ consulte condiciones de financiación, Se acepta coche o moto como parte de pago. Entregamos tu vehículo en cualquier punto de la península, en Donostia-San Sebastián."
     },
     {
         id: 2,
@@ -21,10 +21,179 @@ const automovilesc = [
         kilometros: "177.000 Kms",
         motor: "1.6 cc 110 cv Diesel",
         cambio: "Automático",
-        descripcion: "Precioso Peugeot 3008 Premium 1.6 HDI 110cv CMP, Único propietario, mantenimientos en casa oficial, dispone de: volante multifunción con levas, head up display, freno de estacionamiento eléctrico, luces diurnas, sensor de luces y lluvia, espejos eléctricos, climatizador bi zona, ordenador de abordo, manos libres Parrot, control de crucero y limitador de velocidad, llantas de aleación, ABS, ESP, etc….Al contado 7.990 €. Consultar condiciones de financiación. Se acepta coche o moto como parte de pago. Entregamos tu vehículo en cualquier punto de la península, en Donostia-San Sebastián."
+        descripcion: "Precioso Peugeot 3008 Premium 1.6 HDI 110cv CMP, Único propietario, mantenimientos en casa oficial, dispone de: volante multifunción con levas, head up display, freno de estacionamiento eléctrico, luces diurnas, sensor de luces y lluvia, espejos eléctricos, climatizador bi zona, ordenador de abordo, manos libres Parrot, control de crucero y limitador de velocidad, llantas de aleación, ABS, ESP, etc. Al contado 7.990 €. Consultar condiciones de financiación. Se acepta coche o moto como parte de pago. Entregamos tu vehículo en cualquier punto de la península, en Donostia-San Sebastián."
     },
     {
-        id: 1,
+        id: 3,
+        nombre: "MINI ONE CABRIO 1.6 90CV",
+        precioContado: "RESERVADO",
+        precioFinanciado: "",
+        imagen: "",
+        anio: "2008",
+        kilometros: "95.000 Kms",
+        motor: "1.6 cc 90 cv Gasolina",
+        cambio: "Manual",
+        descripcion: "Precioso Mini One motor BMW, muy bien cuidado, Cuenta con: sensores de aparcamiento traseros, Espejos eléctricos, ordenador de a bordo, techo corredizo y descapotable eléctricamente, cierre centralizado, elevalunas eléctrico ABS, ESP, etc.",
+        
+    },
+    {
+        id: 4,
+        nombre: "MERCEDES-BENZ  E220D 4P.",
+        precioContado: "33.900€",
+        precioFinanciado: "32.900€",
+        imagen: "",
+        anio: "2017",
+        kilometros: "49.000 Kms",
+        motor: "2.2 cc 194 cv Diesel",
+        cambio: "Automático",
+        descripcion: "Espectacular Mercedes-Benz E220 D 9G-Tronic, 194 CV, único dueño, impecable, dispone de: Paquete AMG exterior, llantas AMG en 19″, cámara 360° con control de ángulo muerto y cambio de carril, lector de señales de trafico, asistente activo de aparcamiento con Partronik, faros Led Intelligent Light Sytem, paquete de iluminacion interior, asientos delanteros calefactables, volante multifunción, control de crucero, pantalla tactil con Apple CarPlay TM, Andoid Auto, bluetooth, USB, ABS, ESP. etc. Precio 33.900€. Al contado, consulte condiciones de financiacion, Se acepta coche o moto como parte de pago. Entregamos tu vehículo en cualquier punto de la península, en Donostia-San Sebastián.",
+        
+    },
+    {
+        id: 5,
+        nombre: "OPEL ASTRA 125CV SELECTIVE",
+        precioContado: "10.900€ ",
+        precioFinanciado: "9.900€ ",
+        imagen: "",
+        anio: "2017",
+        kilometros: "142.000 Kms",
+        motor: "142.000 Kms",
+        cambio: "Manual",
+        descripcion: "Impecable Opel Astra1.4 Turbo SS 92kW 125CV Selective, único propietario, revisiones en casa oficial, dispone de: Climatizador bizona, llantas de aleación, control de velocidad, freno de estacionamiento manual, luces automáticas, sensor de lluvia, luces diurnas Led, bluetooth, start/stop, elevalunas eléctricos delanteros y traseros, pantalla media radio conexión USB, bluetooth, Cd, manos libres, Aux, ESP, ABS, etc. Se entrega con garantía y transferencia incluidos. Precio financiado 9.900€. Al contado 10.900€ .Se acepta coche o moto como parte de pago. Entregamos tu vehículo en cualquier punto de la península, en Donostia-San Sebastián.",
+        
+    },
+    {
+        id: 6,
+        nombre: "TOYOTA AVENSIS 2.0 D4D ADVANCE",
+        precioContado: "7.990€",
+        precioFinanciado: "7.990€",
+        imagen: "",
+        anio: "2010",
+        kilometros: "188.000 Kms",
+        motor: "2.0 cc 126 cv Diesel",
+        cambio: "Manual",
+        descripcion: "Magnífico Toyota Avensis Advance 2.0 D4D 126cv, único dueño, revisiones en casa oficial Toyota, bien cuidado, dispone de : Volante multifunción, control de crucero, ordenador de a bordo, climatizador doble, freno eléctrico, radio cd/mp3, espejos eléctricos, elevalunas eléctricos, cierre centralizador, ABS, ESP, etc. Al contado 7.990€ .Se acepta coche o moto como parte de pago. Entregamos tu vehículo en cualquier punto de la península, en Donostia-San Sebastián.",
+        
+    },
+    {
+        id: 7,
+        nombre: "SKODA OCTAVIA COMBI 1.6 TDI 110CV",
+        precioContado: "RESERVADO",
+        precioFinanciado: "",
+        imagen: "",
+        anio: "2017",
+        kilometros: "78.000 Kms",
+        motor: "1.6 cc 110 cv Diesel",
+        cambio: "Manual",
+        descripcion: "Precioso Skoda Octavia 1.6 de 110 CV y etiqueta C, revisiones al día. Cuenta con: Volante multifunción, pantalla táctil, bluetooth, manos libres, cargador de Cds, entradas USB y Aux, climatizador bi zona, espejos eléctricos, ordenador de a bordo, luces automáticas, sensor de lluvia, control de crucero, se entrega con garantía y transferencia incluidos, ESP, ABS, etc.",
+        
+    },
+    {
+        id: 8,
+        nombre: "AUDI SQ5 3.0 TDI 340CV PLUS",
+        precioContado: "70.000€",
+        precioFinanciado: "67.990€",
+        imagen: "",
+        anio: "2022",
+        kilometros: "37.000 Kms",
+        motor: "3.0 cc 341 cv Diesel",
+        cambio: "Automático",
+        descripcion: "Impresionante Audi SQ5 341cv Tiptronic Plus Quattro, único dueño, revisiones en casa oficial, impecable, dispone de: Asientos delanteros regulación eléctrica, conductor con memoria y calefactables, cuero napa fina rojo magma Audi Exclusive S, sistema de audio Bang&Olufsen, techo panorámico, llave confort apertura control gestual, suspensión neumática adaptativa S, paquetes city, tour, óptica negro plus, llantas 20″ Sport, pinzas de freno rojas, precio nuevo 98.000€ , garantía oficial de la casa hasta 06/2025. Consultar condiciones de financiación. Se acepta coche o moto como parte de pago. Entregamos tu vehículo en cualquier punto de la península, en Donostia-San Sebastián.",
+        
+    },
+    {
+        id: 9,
+        nombre: "SEAT ALHAMBRA 2.0 TDI 140 CV DSG",
+        precioContado: "20.900€ Al contado.",
+        precioFinanciado: "19.900€ Financiado.",
+        imagen: "",
+        anio: "2014",
+        kilometros: "90.000 Kms",
+        motor: "2.0 cc 140 cv Diesel",
+        cambio: "Automático",
+        descripcion: "Magnífica Seat Alhambra 2.0 tdi 140cv DSG 5 plazas, único propietario, muy bien cuidada, VEHICULO ADAPTADO ( Volante con aro, 2 x asientos delanteros giratorios, grúa maletero hasta 150kgrs). Dispone de: Volante multifunción con levas, pantalla con radio, multimedia, bluetooth, sensor de luz y lluvia, sensores de aparacamiento delantero y trasero, portón maletero con apertura eléctrica, ordenador de a bordo, control de crucero, 2 x puertas laterales correderas eléctricas, freno eléctrico con auto hold, doble climatizador, espejos eléctricos, ABS, ESP, etc. Al contado 20.900 € Financiado 19.900€ Consultar condiciones de financiación. Se acepta coche o moto como parte de pago. Entregamos tu vehículo en cualquier punto de la península, en Donostia-San Sebastián.",
+        
+    },
+    {
+        id: 10,
+        nombre: "CITROEN C4 PICASSO 1.6VTI 120CV",
+        precioContado: "7.500€ Al contado.",
+        precioFinanciado: "7.500€ Financiado.",
+        imagen: "",
+        anio: "2013",
+        kilometros: "138.000 Kms",
+        motor: "1.6 cc 120 cv Gasolina",
+        cambio: "Manual",
+        descripcion: "Bonita Citroën C4 Picasso 1.6 de 120 CV y etiqueta C, único propietario, revisiones en casa oficial, cuenta con: Volante multifunción, bluetooth, Cd, manos libres, climatizador, espejos eléctricos, luna delantera panorámica, freno de mano eléctrico, ordenador de a bordo, se entrega con garantía y transferencia incluidos, ESP, ABS, etc. Al contado 7.500 € Consultar condiciones de financiación. Se acepta coche o moto como parte de pago. Entregamos tu vehículo en cualquier punto de la península, en Donostia-San Sebastián.",
+        
+    },
+    {
+        id: 11,
+        nombre: "TOYOTA PRIUS 1.8 HSD ECO",
+        precioContado: "7.990€ Al contado.",
+        precioFinanciado: "7.990€ Financiado.",
+        imagen: "",
+        anio: "2009",
+        kilometros: "250.000 Kms",
+        motor: "1.8 cc 136 cv Gasolina+Eléctrico",
+        cambio: "Automático",
+        descripcion: "Magnífico Toyota Prius Advance 1.8 HSD, único dueño, estado impecable, revisiones en concesionario oficial Toyota, etiqueta ECO, dispone de: Volante multifunción, Head up display, navegador, bluetooth manos libres, cámara de marcha atrás, asiento delantero regulación eléctrica, climatizador, control de crucero, ordenador de a bordo, radio CD/mp3, arranque a botón, espejos eléctricos, ABS, EBD, ESP, etc. Al contado 7.990€ Consultar condiciones de financiación. Se acepta coche o moto como parte de pago. Entregamos tu vehículo en cualquier punto de la península, en Donostia-San Sebastián.",
+        
+    },
+    {
+        id: 12,
+        nombre: "MERCEDES-BENZ CLA 200 SHOOTING BRAKE",
+        precioContado: "40.900€ Financiado",
+        precioFinanciado: "41.900€ Al contado",
+        imagen: "",
+        anio: "2021",
+        kilometros: "11.000 Kms",
+        motor: "1.3 cc 163 cv Gasolina",
+        cambio: "Gasolina",
+        descripcion: "Espectacular Mercedes-Benz CLA 200 AMG, único dueño, impecable, dispone de: Paquete AMG premium, cámara 360° con control de ángulo y muerto y cambio de carril, carga inalámbrica de dispositivos, techo panorámico, sistema de sonido surround burmester, apertura de maletero sin manos, sistema de entrada sin llave, bola remolque, asientos delanteros calefactables, volante multifunción, control de crucero, virtual cockpit con navegador, bluetooth, USB, ABS, ESP. etc. Precio financiado 40900€. Al contado 41900€ .Se acepta coche o moto como parte de pago. Entregamos tu vehículo en cualquier punto de la península, en Donostia-San Sebastián.",
+        
+    },
+    {
+        id: 13,
+        nombre: "RANGE ROVER EVOQUE 150CV 4×4",
+        precioContado: "22.500€ Al contado.",
+        precioFinanciado: "21.500€ Financiado.",
+        imagen: "",
+        anio: "2016",
+        kilometros: "95.000 Kms",
+        motor: "2.0 cc 150 cv Diesel",
+        cambio: "Automático",
+        descripcion: "Impecable Range Rover Evoque 2.0 TD4 150cv 4×4 SE, único dueño, muy bien cuidado, asientos de cuero regulación eléctrica, sensor aparcamiento delantero y trasero y cámara de marcha atrás, control presión neumáticos, climatización automática, llantas 18 pulgadas, parkassist, volante de cuero multifunción con cambio de marchas por levas, pantalla táctil, sistema navegación incluido control voz, conexión USB, bluetooth, Cd, manos libres, sensor de luces automático, faros led xenón, luz de marcha diurna, faros antiniebla, espejo interior anti deslumbrante, espejos abatibles eléctricos, control de velocidad, asistente en pendiente y para el estacionamiento, diferentes modos de conducción offroad, sensor lluvia, apoyabrazos delantero, cristales tintados, ESP, ABS, etc. Precio financiado 21500€. Al contado 22500€ .Se acepta coche o moto como parte de pago. Entregamos tu vehículo en cualquier punto de la península, en Donostia-San Sebastián.",
+        
+    },
+    {
+        id: 14,
+        nombre: "HONDA CIVIC 1.6 IDTEC ELEGANCE NAVI",
+        precioContado: "VENDIDO",
+        precioFinanciado: "",
+        imagen: "",
+        anio: "2019",
+        kilometros: "70.000 Kms",
+        motor: "1.6 cc 120 cv Diesel",
+        cambio: "Manual",
+        descripcion: "Magnífico Honda Civic 1.6 I-DTEC 120CV acabado Elegance Navi, único dueño, impecable, revisiones en concesionario oficial Honda, IVA deducible,, etiqueta C, dispone de: Acabado elegance, pantalla táctil multifunción con Android auto y car play, navegador, bluetooth, led diurno, asientos calefactables, sensores de aparcamiento con cámara de marcha atrás, llantas 17, sistema anticolisión, sensor de Luces y lluvia, climatizador Bi-Zona, start&stop, modo eco, sistema de advertencia de salida de carril, control de crucero adaptativo, control por voz, elevalunas eléctricos, espejos eléctricos y abatibles, Isofix, ESP, ABS, etc.",
+        
+    },
+    {
+        id: 15,
+        nombre: "MERCEDES AMG E53 4MATIC",
+        precioContado: "61.900€ Financiado",
+        precioFinanciado: "63.900€ Al contado",
+        imagen: "",
+        anio: "2019",
+        kilometros: "60.000 Kms",
+        motor: "3.0 cc 435 cv Gasolina Turbo",
+        cambio: "Automático",
+        descripcion: "Espectacular Mercedes-Benz E53 AMG 4M TCT 9G, mantenimientos en casa oficial, muy cuidado, dispone de muchos extras: Techo panorámico, parktronic con cámara 360º, LED inteligentes, multibeam LED, cockpit digital, apple car play, media, bluetooth, distronic plus, AMG night-paket, AMG drivers package, AMG ride control +,AMG exterior e interior, sonido Burmester, keyless-go, Dynamic select, Command online, llantas AMG 20”, Euro 6, recién hecho tratamiento cerámico de la carrocería, a toda prueba, estado 10/10, IVA deducible, etc. TODO INCLUIDO: transferencia, entrega y garantía, Precio financiado 61.900 €. Al contado 63.900 € Entregamos tu vehículo en cualquier punto de la península.",
+        
+    },
+    {
+        id: 3,
         nombre: "",
         precioContado: "",
         precioFinanciado: "",
@@ -35,12 +204,10 @@ const automovilesc = [
         cambio: "",
         descripcion: "",
         
-    },
-
-
-
-
+    }
 ]
+
+module.exports = automoviles;
 
 
 

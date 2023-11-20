@@ -1,13 +1,15 @@
-// En un archivo separado para las rutas, por ejemplo, 'routes.js':
+
 const express = require('express');
+const automoviles = require('../public/js/automoviles js/automoviles');
 const router = express.Router();
+
 
 router.get('/', (req, res) => {
     res.render('index');
 });
 
 router.get('/stock', (req, res) => {
-    res.render('stock');
+    res.render('stock', {automoviles: automoviles} );
 });
 
 router.get('/financiacion', (req, res) => {

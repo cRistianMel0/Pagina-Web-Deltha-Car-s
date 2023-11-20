@@ -16,6 +16,7 @@
     <!-- Link CSS JS -->
     <link rel="stylesheet" href="/css/generalStyles.css">
     <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/stock.css">
     <title>Deltha Car´s</title>
   
     <!-- Google Fonts -->
@@ -34,7 +35,58 @@
     <%- include('./shared/nav.ejs') %>
 
     <!-- Automoviles -->
-    <div>
+    <section class="section-title">
+        <div class="header-container text-center">
+            <h1>
+                STOCK DELTACARS
+            </h1>
+        </div>
+    </section>
+    <!-- Esta es la seccion que renderiza los automoviles -->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <% for (let i = 0; i < automoviles.length; i+=3) { %>
+            <div class="carousel-item <%= i === 0 ? 'active' : '' %>">
+              <div class="container">
+                <div class="card-container row">
+                  <% for (let j = i; j < i+3 && j < automoviles.length; j++) { %>
+                    <div class="col-12 col-sm-6 col-md-4 d-flex align-items-center justify-content-center">
+                      <div class="card" style="width: 18rem; margin-bottom: 20px;">
+                        <img src="<%= automoviles[j].imagen %>" class="card-img-top" alt="<%= automoviles[j].nombre %>">
+                        <div class="card-body">
+                          <h5 class="card-title"><%= automoviles[j].nombre %></h5>
+                          <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Año: <%= automoviles[j].anio %></li>
+                            <li class="list-group-item">Marca: <%= automoviles[j].marca %></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  <% } %>
+                </div>
+              </div>
+            </div>
+          <% } %>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+      
+
+
+
+
+
+
+
+    <div class="">
         <ul class="nav nav-tabs" id="myTabs">
             <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#tab1">Tab 1</a>
@@ -222,6 +274,8 @@
             <p>Este es el contenido de la pestaña 4.</p>
         </div>
     </div>
+
+    <%- include('./shared/footer.ejs') %>
     
 
 

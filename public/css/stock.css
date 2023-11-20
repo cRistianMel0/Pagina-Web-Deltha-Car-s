@@ -1,0 +1,19 @@
+.section-title{
+    margin-top: 85px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-title h1{
+    font-family: 'Teko',Helvetica,Arial,Lucida,sans-serif;
+    text-transform: uppercase;
+    font-size: 5.5rem;
+    letter-spacing: 2px;
+    line-height: 0.9em;
+}
+
+.card{
+    max-height: 370px;
+}

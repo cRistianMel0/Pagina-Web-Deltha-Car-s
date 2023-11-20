@@ -1,4 +1,4 @@
-const BOBINAs = [
+const bobinas = [
     {
         categoria: "BOBINA",
         nombre: "BOBINA DE ENCENDIDO 203-035 TRACKER - SONIC",
@@ -163,5 +163,5 @@ const BOBINAs = [
     }
 ];
 
-    // Puedes acceder a los elementos de la tabla como productos4[0].nombre, productos4[0].categoria, etc.
+module.exports = bobinas;
 

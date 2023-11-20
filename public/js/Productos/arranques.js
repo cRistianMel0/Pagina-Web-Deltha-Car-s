@@ -1,4 +1,4 @@
-const ARRANQUEs = [
+const arranque = [
     {
       categoria: "ARRANQUE",
       nombre: "ARRANQUE GAMA PARA SUZUKY SPRINT SWIFT",
@@ -148,3 +148,4 @@ const ARRANQUEs = [
     },
   ];
   
+  module.exports = arranque;

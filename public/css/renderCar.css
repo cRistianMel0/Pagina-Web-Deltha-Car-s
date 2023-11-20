@@ -1,0 +1,76 @@
+.header-title{
+    margin-top: 85px;
+    padding-top: 80px;
+    padding-right: 0px;
+    padding-bottom: 54px;
+    padding-left: 0px;
+}
+
+.header-title h1{
+    font-family: 'Teko',Helvetica,Arial,Lucida,sans-serif;
+    text-transform: uppercase;
+    font-size: 7.5rem;
+    letter-spacing: 2px;
+    line-height: 0.9em;
+    font-weight: bold;
+
+}
+
+.header-title span{
+    font-family: 'Teko',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 2rem;
+}
+
+
+.contado{
+    color: red;
+}
+
+/* Seccion de la imagen */
+
+
+
+.img-comtainer{
+    max-height: 1441px;
+}
+
+.trian{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 0;
+    border-left: 50vw solid white;
+    border-right: 50vw solid white;
+    border-top: 100px solid #ffffff00;
+    margin-top: -100px;
+}
+
+@media screen and (max-width: 768px) {
+    .trian {
+        border-top: 30px solid #ffffff00;
+        margin-top: -30px;
+    }
+
+    .header-title h1{
+        font-size: 4.5rem;
+    }
+}
+
+
+.img-comtainer img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Contenido de la info */
+.name-car-info{
+    font-family: 'Teko',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.info-subtitle span{
+    font-family: 'Teko',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 1.5rem;
+}

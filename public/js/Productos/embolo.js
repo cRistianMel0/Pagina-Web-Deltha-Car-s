@@ -1,4 +1,4 @@
-const productosEmbolo = [
+const embolo = [
     {
         categoria: "EMBOLO",
         nombre: "EMBOLO AUTOMATICO DE ARRANQUE KTC 201-37 PARA TOYOTA",
@@ -30,3 +30,5 @@ const productosEmbolo = [
         precioVenta3: 65000,
     },
 ];
+
+module.exports = embolo;

@@ -9,3 +9,5 @@ const conectores = [
         precioVenta3: 4430,
     },
 ];
+
+module.exports = conectores;

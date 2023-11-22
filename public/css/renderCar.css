@@ -42,7 +42,7 @@
     height: 0;
     border-left: 50vw solid white;
     border-right: 50vw solid white;
-    border-top: 100px solid #ffffff00;
+    border-top: 105px solid #ffffff00;
     margin-top: -100px;
 }
 
@@ -74,3 +74,41 @@
     font-family: 'Teko',Helvetica,Arial,Lucida,sans-serif;
     font-size: 1.5rem;
 }
+
+/* oca container */
+.oca-container{
+    height: 400px;
+}
+
+.back-color{
+    background-color: #dfdfdf;
+    max-height: 360px;
+    min-height: 200px;
+    border-radius: 20px 20px 20px 20px;
+    max-width: 1000px;
+}
+
+.btn-stock{
+    height: 70px;
+    width: 200px;
+    transition: 1s;
+    font-size: 20px;
+    background-color: rgb(255, 21, 21)(205, 47, 47);
+}
+
+.btn-stock:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+.link{
+    text-decoration: none ;
+    color: white;
+}
+
+
+.oca-title{
+    font-family: 'Teko',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+

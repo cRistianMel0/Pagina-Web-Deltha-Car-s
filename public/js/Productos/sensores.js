@@ -182,3 +182,5 @@ const sensores = [
         precioVenta: 150000,
     },
 ];
+
+module.exports = sensores; 

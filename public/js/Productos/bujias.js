@@ -1,4 +1,4 @@
-const BUJIAS = [
+const bujias = [
     {
         categoria: "BUJIAS",
         nombre: "BUJIA FR8DCX 7957+19 BOSCH CORSA MITSUBISHI AVEO",
@@ -163,4 +163,4 @@ const BUJIAS = [
     },
 ];
 
-  // Puedes acceder a los elementos de la tabla como productosBUJIAS[0].nombre, productosBUJIAS[0].categoria, etc.
+module.exports = bujias;

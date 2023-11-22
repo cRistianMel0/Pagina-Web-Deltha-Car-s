@@ -64,3 +64,5 @@ const retenedores = [
         precioVenta: 22000,
     },
 ];
+
+module.exports =  retenedores; 

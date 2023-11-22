@@ -1,4 +1,4 @@
-const ABRAZADERAS = [
+const abrazaderas = [
   {
     categoria: "ABRAZADERA",
     nombre: "ABRAZADERAS METALICA 3/4",
@@ -93,4 +93,4 @@ const ABRAZADERAS = [
   },
 ];
 
-module.exports = ABRAZADERAS;
+module.exports = abrazaderas;

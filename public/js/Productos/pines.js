@@ -45,4 +45,6 @@ const pines =[
       precioVenta3: 900,
     },
   ];
+
+  module.exports = pines; 
   

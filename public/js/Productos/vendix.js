@@ -91,3 +91,5 @@ const vendix = [
         precioVenta: 55000,
     }
 ]
+
+module.exports = vendix; 

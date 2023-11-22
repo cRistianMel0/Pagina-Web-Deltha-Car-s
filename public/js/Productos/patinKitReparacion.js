@@ -51,3 +51,4 @@ const patinkitReparacion = [
     },
   ];
   
+  module.exports = patinkitReparacion;

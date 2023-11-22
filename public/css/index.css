@@ -56,7 +56,15 @@
     width: 100%;
 }
 
+.disable-scroll{
+    overflow-y: hidden;
+    max-width: fit-content;
+    overflow-x: hidden;
+}
 
+.et_pb_text_inner h2{
+    font-size: 7.5rem;
+}
 
 /* Seccion ofertas empresa */
 
@@ -102,7 +110,7 @@
     font-family: 'Teko', Helvetica, Arial, Lucida, sans-serif;
     font-weight: 500;
     text-transform: uppercase;
-    font-size: 9vw;
+    font-size: 7.5rem;
     color: #ffffff !important;
     line-height: 1.2em;
 }
@@ -7396,9 +7404,7 @@ body.uiwebview .section_has_divider {
     padding-bottom: 0
 }
 
-.et_pb_text_inner {
-    position: relative
-}
+
 
 .et_pb_bg_layout_light .et_pb_promo_button {
     color: #2ea3f2

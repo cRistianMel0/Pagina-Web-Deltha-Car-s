@@ -111,3 +111,4 @@ const elevadoresRelay12V = [
     },
   ];
   
+  module.exports = elevadoresRelay12V;

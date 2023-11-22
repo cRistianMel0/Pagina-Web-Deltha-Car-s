@@ -45,3 +45,5 @@ const liquidoFrenos = [
         precioVenta3: 12799,
     },
 ];
+
+module.exports = liquidoFrenos;

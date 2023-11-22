@@ -234,3 +234,5 @@ const filtrosGasolina = [
         precioVenta3: 2000,
     },
 ];
+
+module.exports = filtrosGasolina;

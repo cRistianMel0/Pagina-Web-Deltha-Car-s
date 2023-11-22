@@ -1,4 +1,4 @@
-[
+ const portaEscobillas = [
     {
         categoria: "PORTAESCOBILLAS",
         nombre: "PORTAESCOBILLAS SPARK IR81094",
@@ -171,3 +171,5 @@
         precioVenta3: 5000,
     },
 ];
+
+module.exports = portaEscobillas; 

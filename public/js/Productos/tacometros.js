@@ -28,3 +28,6 @@ const tacometros = [
         precioVenta: 50000,
     }
 ]
+
+
+module.exports = tacometros; 

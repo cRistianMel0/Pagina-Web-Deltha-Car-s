@@ -422,3 +422,5 @@ const filtrosAire = [
         precioVenta3: 3000,
     },
 ];
+
+module.exports = filtrosAire;

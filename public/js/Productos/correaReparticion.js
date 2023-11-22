@@ -64,3 +64,5 @@ const correasReparticion = [
         precioVenta3: 5000,
     },
 ];
+
+module.exports = correasReparticion;

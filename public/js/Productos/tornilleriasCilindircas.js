@@ -66,3 +66,5 @@ const tornilleriaCilindrica = [
         precioVenta: 1500,
     },
 ];
+
+module.exports = tornilleriaCilindrica; 

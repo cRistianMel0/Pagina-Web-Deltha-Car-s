@@ -217,8 +217,8 @@ const bombillerasLed = [
         precioVenta3: 1000,
     },
 
-    // Puedes acceder a los elementos de la tabla como productos6[0].nombre, productos6[0].categoria, etc.
+    
 
 ];
 
-  // Puedes acceder a los elementos de la tabla como productos5[0].nombre, productos5[0].categoria, etc.
+module.exports = bombillerasLed;

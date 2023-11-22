@@ -208,6 +208,7 @@ const automoviles = [
         descripcion: "Espectacular Mercedes-Benz E53 AMG 4M TCT 9G, mantenimientos en casa oficial, muy cuidado, dispone de muchos extras: Techo panorámico, parktronic con cámara 360º, LED inteligentes, multibeam LED, cockpit digital, apple car play, media, bluetooth, distronic plus, AMG night-paket, AMG drivers package, AMG ride control +,AMG exterior e interior, sonido Burmester, keyless-go, Dynamic select, Command online, llantas AMG 20”, Euro 6, recién hecho tratamiento cerámico de la carrocería, a toda prueba, estado 10/10, IVA deducible, etc. TODO INCLUIDO: transferencia, entrega y garantía, Precio financiado 61.900 €. Al contado 63.900 € Entregamos tu vehículo en cualquier punto de la península.",
         
     },
+    
 
 ]
 

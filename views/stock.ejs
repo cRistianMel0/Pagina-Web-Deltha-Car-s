@@ -29,116 +29,1024 @@
 
 <body>
 
-
   <!-- Nav -->
   <%- include('./shared/nav.ejs') %>
 
     <!-- Automoviles -->
-    <section class="section-title">
-      <div class="header-container text-center">
-        <h1>
-          STOCK DELTACARS
-        </h1>
+    <section>
+      <div class="container-fluid header-container d-flex justify-content-center align-items-center">
+        <div class="header-content-container">
+          <div class="title-container">
+            <h1>
+              STOCK DELTHACARS
+            </h1>
+          </div>
+        </div>
+        <div class="trian"></div>
       </div>
     </section>
 
     <!-- Esta es la seccion que renderiza los automoviles -->
-    <div class="container">
-      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <% for (let i=0; i < automoviles.length; i+=3) { %>
-            <div class="carousel-item <%= i === 0 ? 'active' : '' %>">
-              <div class="container">
-                <div class="card-container row">
-                  <% for (let j=i; j < i+3 && j < automoviles.length; j++) { %>
-                    <div class="col-12 col-md-4 d-flex align-items-center justify-content-center">
-                      <a class="link" href="/renderCar/<%= automoviles[j].id %>">
-                        <div class="card" style="width: 18rem; margin-bottom: 20px;">
-                          <img src="<%= automoviles[j].imagen %>" class="card-img-top"
-                            alt="<%= automoviles[j].nombre %>">
-                          <div class="card-body">
-                            <h5 class="card-title">
-                              <%= automoviles[j].nombre %>
-                            </h5>
-                            <ul class="list-group list-group-flush">
-                              <li class="list-group-item">Año: <%= automoviles[j].anio %>
-                              </li>
-                              <li class="list-group-item">Marca: <%= automoviles[j].marca %>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                    <% } %>
-                </div>
-              </div>
-            </div>
-            <% } %>
-        </div>
-        <button class="carousel-control-prev control-btn" type="button" data-bs-target="#carouselExampleAutoplaying"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon control-btn" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </div>
-
-
-
-
-
-
-
-
-    <section class="mt-5">
+    <section class="cars-section top-container">
       <div class="container">
-        <ul class="nav nav-tabs" id="myTabs">
-          <li><a class="nav-link active" aria-current="page" href="#tab1P">Abrazaderas</a></li>
-          <li><a class="nav-link" href="#tab2P">Alternadores</a></li>
-          <li><a class="nav-link" href="#tab3P">Arranques</a></li>
-          <li><a class="nav-link" href="#tab4P">Bobinas</a></li>
-          <li><a class="nav-link" href="#tab5P">Bombilleras Led</a></li>
-          <li><a class="nav-link" href="#tab6P">Bujias</a></li>
-          <li><a class="nav-link" href="#tab7P">Cintas Led</a></li>
-          <li><a class="nav-link" href="#tab8P">Conectores</a></li>
-          <li><a class="nav-link" href="#tab9P">Correa Accesorios</a></li>
-          <li><a class="nav-link" href="#tab10P">Correa Repartición</a></li>
-          <li><a class="nav-link" href="#tab11P">Elevadores Relay V12</a></li>
-          <li><a class="nav-link" href="#tab12P">Embolo</a></li>
-          <li><a class="nav-link" href="#tab13P">Filtros Gasolina</a></li>
-          <li><a class="nav-link" href="#tab14P">Filtros Aire</a></li>
-          <li><a class="nav-link" href="#tab15P">Inyectores</a></li>
-          <li><a class="nav-link" href="#tab16P">Liquido Frenos</a></li>
-          <li><a class="nav-link" href="#tab17P">Mangueras</a></li>
-          <li><a class="nav-link" href="#tab18P">Patin Kit Repartición</a></li>
-          <li><a class="nav-link" href="#tab19P">Pines</a></li>
-          <li><a class="nav-link" href="#tab20P">Porta Escobillas</a></li>
-          <li><a class="nav-link" href="#tab21P">Retenedores</a></li>
-          <li><a class="nav-link" href="#tab22P">Sensores</a></li>
-          <li><a class="nav-link" href="#tab23P">Tacometro</a></li>
-          <li><a class="nav-link" href="#tab24P">Terminales</a></li>
-          <li><a class="nav-link" href="#tab25P">Tornilleria Cilindrica</a></li>
-          <li><a class="nav-link" href="#tab26P">Varios</a></li>
-          <li><a class="nav-link" href="#tab27P">Vendix</a></li>
-          <li><a class="nav-link" href="#tab28P">Wasa</a></li>
-        </ul>
-
-        <div class="tab-content">
-          <% for (let i=1; i <=28; i++) { %>
-            <div class="tab-pane fade <%= i === 1 ? 'show active' : '' %>" id="tab<%= i %>P">
-              <!-- Contenido para la pestaña <%= i %> -->
-              <p>Este es el contenido de la pestaña <%= i %> con el nombre correspondiente.</p>
+        <div class="margin-top">
+          <div class="title-holder">
+            <h2 class="auto-tilte">AUTOMOVILES</h2>
+          </div>
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <% for (let i=0; i < stock.automoviles.length; i+=3) { %>
+                <div class="carousel-item <%= i === 0 ? 'active' : '' %>">
+                  <div class="container">
+                    <div class="card-container row">
+                      <% for (let j=i; j < i+3 && j < stock.automoviles.length; j++) { %>
+                        <div class="col-12 col-md-4 d-flex align-items-center justify-content-center">
+                          <a class="link" href="/renderCar/<%= stock.automoviles[j].id %>">
+                            <div class="card" style="width: 18rem; margin-bottom: 20px;">
+                              <img src="<%= stock.automoviles[j].imagen %>" class="card-img-top"
+                                alt="<%= stock.automoviles[j].nombre %>">
+                              <div class="card-body">
+                                <h5 class="card-title">
+                                  <%= stock.automoviles[j].nombre %>
+                                </h5>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">Año: <%= stock.automoviles[j].anio %>
+                                  </li>
+                                  <li class="list-group-item">Marca: <%= stock.automoviles[j].marca %>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <% } %>
+                    </div>
+                  </div>
+                </div>
+                <% } %>
+  
             </div>
-            <% } %>
+            <button class="carousel-control-prev control-btn" type="button" data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon control-btn" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
       </div>
     </section>
+
+    <section class="mt-5 mb-2">
+      <div class="title-holder">
+        <h2 class="auto-tilte">NUEVO STOCK REPUESTOS</h2>
+      </div>
+      <div class="container">
+        <label class="ms-2 tabSelector" for="tabSelector">Busca en nuestro nuevo stock!</label>
+        <select class="form-select" id="tabSelector">
+          <option value="#tab1P" selected>Abrazaderas</option>
+          <option value="#tab2P">Alternadores</option>
+          <option value="#tab3P">Arranques</option>
+          <option value="#tab4P">Bobinas</option>
+          <option value="#tab5P">Bombilleras Led</option>
+          <option value="#tab6P">Bujias</option>
+          <option value="#tab7P">Cintas Led</option>
+          <option value="#tab8P">Conectores</option>
+          <option value="#tab9P">Correa Accesorios</option>
+          <option value="#tab10P">Correa Repartición</option>
+          <option value="#tab11P">Elevadores Relay V12</option>
+          <option value="#tab12P">Embolo</option>
+          <option value="#tab13P">Filtros Gasolina</option>
+          <option value="#tab14P">Filtros Aire</option>
+          <option value="#tab15P">Inyectores</option>
+          <option value="#tab16P">Liquido Frenos</option>
+          <option value="#tab17P">Mangueras</option>
+          <option value="#tab18P">Patin Kit Repartición</option>
+          <option value="#tab19P">Pines</option>
+          <option value="#tab20P">Porta Escobillas</option>
+          <option value="#tab21P">Retenedores</option>
+          <option value="#tab22P">Sensores</option>
+          <option value="#tab23P">Tacometro</option>
+          <option value="#tab24P">Terminales</option>
+          <option value="#tab25P">Tornilleria Cilindrica</option>
+          <option value="#tab26P">Varios</option>
+          <option value="#tab27P">Vendix</option>
+          <option value="#tab28P">Wasa</option>
+        </select>
+      </div>
+    </section>
+
+    
+    <div class="container">
+
+      <div class="tab-content">
+        <div class="tab-pane mt-5 fade mb-5 show active" id="tab1P" role="tabpanel" aria-labelledby="tab1P">
+          <table class="table table-hover">
+            <thead class="change-bg">
+
+              <tr>
+                <th scope="col">Nombre </th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Precio</th>
+              </tr>
+
+            </thead>
+            <tbody>
+              <% stock.abrazaderas.forEach(product=> { %>
+                <tr>
+                  <th scope="row">
+                    <%= product.nombre %>
+                  </th>
+                  <td>
+                    <%= product.categoria %>
+                  </td>
+                  <td>
+                    <%= product.precioVenta %>$
+                  </td>
+                </tr>
+                <% }) %>
+
+            </tbody>
+          </table>
+
+
+        </div>
+
+        <div class="tab-pane mt-5 fade mb-5" id="tab2P" role="tabpanel" aria-labelledby="tab1P">
+          <table class="table table-hover">
+            <thead class="change-bg">
+
+              <tr>
+                <th scope="col">Nombre </th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Precio</th>
+              </tr>
+
+            </thead>
+            <tbody>
+              <% stock.alternadores.forEach(product=> { %>
+                <tr>
+                  <th scope="row">
+                    <%= product.nombre %>
+                  </th>
+                  <td>
+                    <%= product.categoria %>
+                  </td>
+                  <td>
+                    <%= product.precioVenta %>$
+                  </td>
+                </tr>
+                <% }) %>
+
+            </tbody>
+          </table>
+
+
+        </div>
+
+        <div class="tab-pane mt-5 fade mb-5" id="tab3P" role="tabpanel" aria-labelledby="tab1P">
+          <table class="table table-hover">
+            <thead class="change-bg">
+
+              <tr>
+                <th scope="col">Nombre </th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Precio</th>
+              </tr>
+
+            </thead>
+            <tbody>
+              <% stock.arranques.forEach(product=> { %>
+                <tr>
+                  <th scope="row">
+                    <%= product.nombre %>
+                  </th>
+                  <td>
+                    <%= product.categoria %>
+                  </td>
+                  <td>
+                    <%= product.precioVenta %>$
+                  </td>
+                </tr>
+                <% }) %>
+
+            </tbody>
+          </table>
+
+
+        </div>
+
+        <div class="tab-pane mt-5 fade mb-5" id="tab4P" role="tabpanel" aria-labelledby="tab1P">
+          <table class="table table-hover">
+            <thead class="change-bg">
+
+              <tr>
+                <th scope="col">Nombre </th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Precio</th>
+              </tr>
+
+            </thead>
+            <tbody>
+              <% stock.bobinas.forEach(product=> { %>
+                <tr>
+                  <th scope="row">
+                    <%= product.nombre %>
+                  </th>
+                  <td>
+                    <%= product.categoria %>
+                  </td>
+                  <td>
+                    <%= product.precioVenta %>$
+                  </td>
+                </tr>
+                <% }) %>
+
+            </tbody>
+          </table>
+
+
+        </div>
+
+        <div class="tab-pane mt-5 fade mb-5" id="tab5P" role="tabpanel" aria-labelledby="tab1P">
+          <table class="table table-hover">
+            <thead class="change-bg">
+
+              <tr>
+                <th scope="col">Nombre </th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Precio</th>
+              </tr>
+
+            </thead>
+            <tbody>
+              <% stock.bombillerasLed.forEach(product=> { %>
+                <tr>
+                  <th scope="row">
+                    <%= product.nombre %>
+                  </th>
+                  <td>
+                    <%= product.categoria %>
+                  </td>
+                  <td>
+                    <%= product.precioVenta %>$
+                  </td>
+                </tr>
+                <% }) %>
+
+            </tbody>
+          </table>
+
+
+        </div>
+
+        <div class="tab-pane mt-5 fade mb-5" id="tab6P" role="tabpanel" aria-labelledby="tab1P">
+          <table class="table table-hover">
+            <thead class="change-bg">
+
+              <tr>
+                <th scope="col">Nombre </th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Precio</th>
+              </tr>
+
+            </thead>
+            <tbody>
+              <% stock.bujias.forEach(product=> { %>
+                <tr>
+                  <th scope="row">
+                    <%= product.nombre %>
+                  </th>
+                  <td>
+                    <%= product.categoria %>
+                  </td>
+                  <td>
+                    <%= product.precioVenta %>$
+                  </td>
+                </tr>
+                <% }) %>
+
+            </tbody>
+          </table>
+
+
+        </div>
+
+        <div class="tab-pane mt-5 fade mb-5" id="tab7P" role="tabpanel" aria-labelledby="tab1P">
+          <table class="table table-hover">
+            <thead class="change-bg">
+
+              <tr>
+                <th scope="col">Nombre </th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Precio</th>
+              </tr>
+
+            </thead>
+            <tbody>
+              <% stock.cintasLed.forEach(product=> { %>
+                <tr>
+                  <th scope="row">
+                    <%= product.nombre %>
+                  </th>
+                  <td>
+                    <%= product.categoria %>
+                  </td>
+                  <td>
+                    <%= product.precioVenta %>$
+                  </td>
+                </tr>
+                <% }) %>
+
+            </tbody>
+          </table>
+
+
+        </div>
+
+        <div class="tab-pane mt-5 fade mb-5" id="tab8P" role="tabpanel" aria-labelledby="tab1P">
+          <table class="table table-hover">
+            <thead class="change-bg">
+
+              <tr>
+                <th scope="col">Nombre </th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Precio</th>
+              </tr>
+
+            </thead>
+            <tbody>
+              <% stock.conectores.forEach(product=> { %>
+                <tr>
+                  <th scope="row">
+                    <%= product.nombre %>
+                  </th>
+                  <td>
+                    <%= product.categoria %>
+                  </td>
+                  <td>
+                    <%= product.precioVenta %>$
+                  </td>
+                </tr>
+                <% }) %>
+
+            </tbody>
+          </table>
+
+
+        </div>
+
+        <div class="tab-pane mt-5 fade mb-5" id="tab9P" role="tabpanel" aria-labelledby="tab1P">
+          <table class="table table-hover">
+            <thead class="change-bg">
+
+              <tr>
+                <th scope="col">Nombre </th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Precio</th>
+              </tr>
+
+            </thead>
+            <tbody>
+              <% stock.correaAccesorios.forEach(product=> { %>
+                <tr>
+                  <th scope="row">
+                    <%= product.nombre %>
+                  </th>
+                  <td>
+                    <%= product.categoria %>
+                  </td>
+                  <td>
+                    <%= product.precioVenta %>$
+                  </td>
+                </tr>
+                <% }) %>
+
+            </tbody>
+          </table>
+
+
+        </div>
+
+        <div class="tab-pane mt-5 fade mb-5" id="tab10P" role="tabpanel" aria-labelledby="tab1P">
+          <table class="table table-hover">
+            <thead class="change-bg">
+
+              <tr>
+                <th scope="col">Nombre </th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Precio</th>
+              </tr>
+
+            </thead>
+            <tbody>
+              <% stock.correasReparticion.forEach(product=> { %>
+                <tr>
+                  <th scope="row">
+                    <%= product.nombre %>
+                  </th>
+                  <td>
+                    <%= product.categoria %>
+                  </td>
+                  <td>
+                    <%= product.precioVenta %>$
+                  </td>
+                </tr>
+                <% }) %>
+
+            </tbody>
+          </table>
+
+
+        </div>
+
+        <div class="tab-pane mt-5 fade mb-5" id="tab11P" role="tabpanel" aria-labelledby="tab1P">
+          <table class="table table-hover">
+            <thead class="change-bg">
+
+              <tr>
+                <th scope="col">Nombre </th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Precio</th>
+              </tr>
+
+            </thead>
+            <tbody>
+              <% stock.elevadoresRelay12V.forEach(product=> { %>
+                <tr>
+                  <th scope="row">
+                    <%= product.nombre %>
+                  </th>
+                  <td>
+                    <%= product.categoria %>
+                  </td>
+                  <td>
+                    <%= product.precioVenta %>$
+                  </td>
+                </tr>
+                <% }) %>
+
+            </tbody>
+          </table>
+
+
+        </div>
+
+        <div class="tab-pane mt-5 fade mb-5" id="tab12P" role="tabpanel" aria-labelledby="tab1P">
+          <table class="table table-hover">
+            <thead class="change-bg">
+
+              <tr>
+                <th scope="col">Nombre </th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Precio</th>
+              </tr>
+
+            </thead>
+            <tbody>
+              <% stock.embolo.forEach(product=> { %>
+                <tr>
+                  <th scope="row">
+                    <%= product.nombre %>
+                  </th>
+                  <td>
+                    <%= product.categoria %>
+                  </td>
+                  <td>
+                    <%= product.precioVenta %>$
+                  </td>
+                </tr>
+                <% }) %>
+
+            </tbody>
+          </table>
+
+
+        </div>
+
+        <div class="tab-pane mt-5 fade mb-5" id="tab13P" role="tabpanel" aria-labelledby="tab1P">
+          <table class="table table-hover">
+            <thead class="change-bg">
+
+              <tr>
+                <th scope="col">Nombre </th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Precio</th>
+              </tr>
+
+            </thead>
+            <tbody>
+              <% stock.filtrosGasolina.forEach(product=> { %>
+                <tr>
+                  <th scope="row">
+                    <%= product.nombre %>
+                  </th>
+                  <td>
+                    <%= product.categoria %>
+                  </td>
+                  <td>
+                    <%= product.precioVenta %>$
+                  </td>
+                </tr>
+                <% }) %>
+
+            </tbody>
+          </table>
+
+
+        </div>
+
+        <div class="tab-pane mt-5 fade mb-5" id="tab14P" role="tabpanel" aria-labelledby="tab1P">
+          <table class="table table-hover">
+            <thead class="change-bg">
+
+              <tr>
+                <th scope="col">Nombre </th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Precio</th>
+              </tr>
+
+            </thead>
+            <tbody>
+              <% stock.filtrosAire.forEach(product=> { %>
+                <tr>
+                  <th scope="row">
+                    <%= product.nombre %>
+                  </th>
+                  <td>
+                    <%= product.categoria %>
+                  </td>
+                  <td>
+                    <%= product.precioVenta %>$
+                  </td>
+                </tr>
+                <% }) %>
+
+            </tbody>
+          </table>
+
+
+        </div>
+
+        <div class="tab-pane mt-5 fade mb-5" id="tab15P" role="tabpanel" aria-labelledby="tab1P">
+          <table class="table table-hover">
+            <thead class="change-bg">
+
+              <tr>
+                <th scope="col">Nombre </th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Precio</th>
+              </tr>
+
+            </thead>
+            <tbody>
+              <% stock.inyectores.forEach(product=> { %>
+                <tr>
+                  <th scope="row">
+                    <%= product.nombre %>
+                  </th>
+                  <td>
+                    <%= product.categoria %>
+                  </td>
+                  <td>
+                    <%= product.precioVenta %>$
+                  </td>
+                </tr>
+                <% }) %>
+
+            </tbody>
+          </table>
+
+
+        </div>
+
+        <div class="tab-pane mt-5 fade mb-5" id="tab16P" role="tabpanel" aria-labelledby="tab1P">
+          <table class="table table-hover">
+            <thead class="change-bg">
+
+              <tr>
+                <th scope="col">Nombre </th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Precio</th>
+              </tr>
+
+            </thead>
+            <tbody>
+              <% stock.liquidoFrenos.forEach(product=> { %>
+                <tr>
+                  <th scope="row">
+                    <%= product.nombre %>
+                  </th>
+                  <td>
+                    <%= product.categoria %>
+                  </td>
+                  <td>
+                    <%= product.precioVenta %>$
+                  </td>
+                </tr>
+                <% }) %>
+
+            </tbody>
+          </table>
+
+
+        </div>
+
+        <div class="tab-pane mt-5 fade mb-5" id="tab17P" role="tabpanel" aria-labelledby="tab1P">
+          <table class="table table-hover">
+            <thead class="change-bg">
+
+              <tr>
+                <th scope="col">Nombre </th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Precio</th>
+              </tr>
+
+            </thead>
+            <tbody>
+              <% stock.mangueras.forEach(product=> { %>
+                <tr>
+                  <th scope="row">
+                    <%= product.nombre %>
+                  </th>
+                  <td>
+                    <%= product.categoria %>
+                  </td>
+                  <td>
+                    <%= product.precioVenta %>$
+                  </td>
+                </tr>
+                <% }) %>
+
+            </tbody>
+          </table>
+
+
+        </div>
+
+        <div class="tab-pane mt-5 fade mb-5" id="tab18P" role="tabpanel" aria-labelledby="tab1P">
+          <table class="table table-hover">
+            <thead class="change-bg">
+
+              <tr>
+                <th scope="col">Nombre </th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Precio</th>
+              </tr>
+
+            </thead>
+            <tbody>
+              <% stock.patinkitReparacion.forEach(product=> { %>
+                <tr>
+                  <th scope="row">
+                    <%= product.nombre %>
+                  </th>
+                  <td>
+                    <%= product.categoria %>
+                  </td>
+                  <td>
+                    <%= product.precioVenta %>$
+                  </td>
+                </tr>
+                <% }) %>
+
+            </tbody>
+          </table>
+
+
+        </div>
+
+        <div class="tab-pane mt-5 fade mb-5" id="tab19P" role="tabpanel" aria-labelledby="tab1P">
+          <table class="table table-hover">
+            <thead class="change-bg">
+
+              <tr>
+                <th scope="col">Nombre </th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Precio</th>
+              </tr>
+
+            </thead>
+            <tbody>
+              <% stock.pines.forEach(product=> { %>
+                <tr>
+                  <th scope="row">
+                    <%= product.nombre %>
+                  </th>
+                  <td>
+                    <%= product.categoria %>
+                  </td>
+                  <td>
+                    <%= product.precioVenta %>$
+                  </td>
+                </tr>
+                <% }) %>
+
+            </tbody>
+          </table>
+
+
+        </div>
+
+        <div class="tab-pane mt-5 fade mb-5" id="tab20P" role="tabpanel" aria-labelledby="tab1P">
+          <table class="table table-hover">
+            <thead class="change-bg">
+
+              <tr>
+                <th scope="col">Nombre </th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Precio</th>
+              </tr>
+
+            </thead>
+            <tbody>
+              <% stock.portaEscobillas.forEach(product=> { %>
+                <tr>
+                  <th scope="row">
+                    <%= product.nombre %>
+                  </th>
+                  <td>
+                    <%= product.categoria %>
+                  </td>
+                  <td>
+                    <%= product.precioVenta %>$
+                  </td>
+                </tr>
+                <% }) %>
+
+            </tbody>
+          </table>
+
+
+        </div>
+
+        <div class="tab-pane mt-5 fade mb-5" id="tab21P" role="tabpanel" aria-labelledby="tab1P">
+          <table class="table table-hover">
+            <thead class="change-bg">
+
+              <tr>
+                <th scope="col">Nombre </th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Precio</th>
+              </tr>
+
+            </thead>
+            <tbody>
+              <% stock.retenedores.forEach(product=> { %>
+                <tr>
+                  <th scope="row">
+                    <%= product.nombre %>
+                  </th>
+                  <td>
+                    <%= product.categoria %>
+                  </td>
+                  <td>
+                    <%= product.precioVenta %>$
+                  </td>
+                </tr>
+                <% }) %>
+
+            </tbody>
+          </table>
+
+
+        </div>
+
+        <div class="tab-pane mt-5 fade mb-5" id="tab22P" role="tabpanel" aria-labelledby="tab1P">
+          <table class="table table-hover">
+            <thead class="change-bg">
+
+              <tr>
+                <th scope="col">Nombre </th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Precio</th>
+              </tr>
+
+            </thead>
+            <tbody>
+              <% stock.sensores.forEach(product=> { %>
+                <tr>
+                  <th scope="row">
+                    <%= product.nombre %>
+                  </th>
+                  <td>
+                    <%= product.categoria %>
+                  </td>
+                  <td>
+                    <%= product.precioVenta %>$
+                  </td>
+                </tr>
+                <% }) %>
+
+            </tbody>
+          </table>
+
+
+        </div>
+
+        <div class="tab-pane mt-5 fade mb-5" id="tab23P" role="tabpanel" aria-labelledby="tab1P">
+          <table class="table table-hover">
+            <thead class="change-bg">
+
+              <tr>
+                <th scope="col">Nombre </th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Precio</th>
+              </tr>
+
+            </thead>
+            <tbody>
+              <% stock.tacometros.forEach(product=> { %>
+                <tr>
+                  <th scope="row">
+                    <%= product.nombre %>
+                  </th>
+                  <td>
+                    <%= product.categoria %>
+                  </td>
+                  <td>
+                    <%= product.precioVenta %>$
+                  </td>
+                </tr>
+                <% }) %>
+
+            </tbody>
+          </table>
+
+
+        </div>
+
+        <div class="tab-pane mt-5 fade mb-5" id="tab24P" role="tabpanel" aria-labelledby="tab1P">
+          <table class="table table-hover">
+            <thead class="change-bg">
+
+              <tr>
+                <th scope="col">Nombre </th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Precio</th>
+              </tr>
+
+            </thead>
+            <tbody>
+              <% stock.terminales.forEach(product=> { %>
+                <tr>
+                  <th scope="row">
+                    <%= product.nombre %>
+                  </th>
+                  <td>
+                    <%= product.categoria %>
+                  </td>
+                  <td>
+                    <%= product.precioVenta %>$
+                  </td>
+                </tr>
+                <% }) %>
+
+            </tbody>
+          </table>
+
+
+        </div>
+
+        <div class="tab-pane mt-5 fade mb-5" id="tab25P" role="tabpanel" aria-labelledby="tab1P">
+          <table class="table table-hover">
+            <thead class="change-bg">
+
+              <tr>
+                <th scope="col">Nombre </th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Precio</th>
+              </tr>
+
+            </thead>
+            <tbody>
+              <% stock.tornilleriaCilindrica.forEach(product=> { %>
+                <tr>
+                  <th scope="row">
+                    <%= product.nombre %>
+                  </th>
+                  <td>
+                    <%= product.categoria %>
+                  </td>
+                  <td>
+                    <%= product.precioVenta %>$
+                  </td>
+                </tr>
+                <% }) %>
+
+            </tbody>
+          </table>
+
+
+        </div>
+
+        <div class="tab-pane mt-5 fade mb-5" id="tab26P" role="tabpanel" aria-labelledby="tab1P">
+          <table class="table table-hover">
+            <thead class="change-bg">
+
+              <tr>
+                <th scope="col">Nombre </th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Precio</th>
+              </tr>
+
+            </thead>
+            <tbody>
+              <% stock.varios.forEach(product=> { %>
+                <tr>
+                  <th scope="row">
+                    <%= product.nombre %>
+                  </th>
+                  <td>
+                    <%= product.categoria %>
+                  </td>
+                  <td>
+                    <%= product.precioVenta %>$
+                  </td>
+                </tr>
+                <% }) %>
+
+            </tbody>
+          </table>
+
+
+        </div>
+
+        <div class="tab-pane mt-5 fade mb-5" id="tab27P" role="tabpanel" aria-labelledby="tab1P">
+          <table class="table table-hover">
+            <thead class="change-bg">
+
+              <tr>
+                <th scope="col">Nombre </th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Precio</th>
+              </tr>
+
+            </thead>
+            <tbody>
+              <% stock.vendix.forEach(product=> { %>
+                <tr>
+                  <th scope="row">
+                    <%= product.nombre %>
+                  </th>
+                  <td>
+                    <%= product.categoria %>
+                  </td>
+                  <td>
+                    <%= product.precioVenta %>$
+                  </td>
+                </tr>
+                <% }) %>
+
+            </tbody>
+          </table>
+
+
+        </div>
+
+        <div class="tab-pane mt-5 fade mb-5" id="tab28P" role="tabpanel" aria-labelledby="tab1P">
+          <table class="table table-hover">
+            <thead class="change-bg">
+
+              <tr>
+                <th scope="col">Nombre </th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Precio</th>
+              </tr>
+
+            </thead>
+            <tbody>
+              <% stock.wasa.forEach(product=> { %>
+                <tr>
+                  <th scope="row">
+                    <%= product.nombre %>
+                  </th>
+                  <td>
+                    <%= product.categoria %>
+                  </td>
+                  <td>
+                    <%= product.precioVenta %>$
+                  </td>
+                </tr>
+                <% }) %>
+
+            </tbody>
+          </table>
+
+
+        </div>
+
+
+
+
+
+        <!-- ... Agregar contenido para otras pestañas -->
+      </div>
+    </div>
 
 
     <!-- Prodcutos -->
@@ -159,13 +1067,17 @@
 
       <script>
         $(document).ready(function () {
-          $('.dropdown-item').click(function () {
-            var targetTabId = $(this).attr('href');
+          $('#tabSelector').change(function () {
+            var targetTabId = $(this).val();
             $('.tab-content .tab-pane').removeClass('show active');
             $(targetTabId).addClass('show active');
           });
         });
       </script>
+
+
+      <!-- HTML y EJS existentes -->
+
 
       <!-- Bootstrap JavaScript -->
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

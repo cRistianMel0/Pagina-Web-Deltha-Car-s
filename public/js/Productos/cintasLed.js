@@ -81,3 +81,5 @@ const cintasLed = [
         precioVenta3: 40000,
     },
 ];
+
+module.exports = cintasLed;

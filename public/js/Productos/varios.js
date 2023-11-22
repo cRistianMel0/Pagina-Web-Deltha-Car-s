@@ -60,3 +60,5 @@ const varios = [
         precioVenta: 6000,
     }
 ];
+
+module.exports = varios; 

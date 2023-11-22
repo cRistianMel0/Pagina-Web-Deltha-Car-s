@@ -32,7 +32,7 @@
     height: 0;
     border-left: 50vw solid transparent;
     border-right: 50vw solid transparent;
-    border-top: 90px solid #ffffff;
+    border-top: 95px solid #ffffff;
 }
 
 .header-description{
@@ -68,7 +68,6 @@
     font-size: 2.5rem;
     color: #ffffff!important;
     letter-spacing: 0.05em;
-    line-height: 0.9em;
     text-shadow: 0em 0.18em 0.27em rgba(0, 0, 0, 0.24);
 }
 
@@ -114,4 +113,7 @@
 }
 
 
+.title-section {
+    overflow-y: hidden;
+}
 

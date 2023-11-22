@@ -143,3 +143,5 @@ const terminales = [
         precioVenta: 0,
     },
 ];
+
+module.exports = terminales; 

@@ -279,3 +279,6 @@ const correaAccesorios = [
         precioVenta3: 0,
     },
 ];
+
+
+module.exports = correaAccesorios;

@@ -115,6 +115,16 @@
     line-height: 1.2em;
 }
 
+@media screen and (max-width: 768px) {
+    .et_pb_text_5 h2 {
+        font-size: 3.5rem; 
+    }
+
+    .title{
+        font-size: 5rem;
+    }
+}
+
 .trian {
     margin-top: -2px;
     position: absolute;
@@ -853,8 +863,7 @@ div.et_pb_section.et_pb_section_4 {
 }
 
 .wp-block-pullquote__citation,
-.wp-block-pullquote cite,
-.wp-block-pullquote footer {
+.wp-block-pullquote cite {
     color: currentColor;
     text-transform: uppercase;
     font-size: .8125em;
@@ -867,8 +876,7 @@ div.et_pb_section.et_pb_section_4 {
     padding-left: 1em
 }
 
-.wp-block-quote cite,
-.wp-block-quote footer {
+.wp-block-quote cite {
     color: currentColor;
     font-size: .8125em;
     position: relative;
@@ -1250,7 +1258,6 @@ table {
 
 article,
 aside,
-footer,
 header,
 hgroup,
 nav,
@@ -1600,39 +1607,13 @@ body:not(.et-tb-has-header) #main-content .container {
     padding: 6px 24px
 }
 
-#left-area ul,
-.entry-content ul,
-.et-l--body ul,
-.et-l--footer ul,
-.et-l--header ul {
-    list-style-type: disc;
-    padding: 0 0 23px 1em;
-    line-height: 26px
-}
 
-#left-area ol,
-.entry-content ol,
-.et-l--body ol,
-.et-l--footer ol,
-.et-l--header ol {
-    list-style-type: decimal;
-    list-style-position: inside;
-    padding: 0 0 23px;
-    line-height: 26px
-}
 
 #left-area ul li ul,
 .entry-content ul li ol {
     padding: 2px 0 2px 20px
 }
 
-#left-area ol li ul,
-.entry-content ol li ol,
-.et-l--body ol li ol,
-.et-l--footer ol li ol,
-.et-l--header ol li ol {
-    padding: 2px 0 2px 35px
-}
 
 #left-area ul.wp-block-gallery {
     display: -webkit-box;
@@ -8134,18 +8115,7 @@ body.et_vertical_nav .container.et_search_form_container .et-search-form input {
     font-size: 16px !important
 }
 
-.footer-widget .et_pb_widget div,
-.footer-widget .et_pb_widget ul,
-.footer-widget .et_pb_widget ol,
-.footer-widget .et_pb_widget label {
-    line-height: 1.7em
-}
 
-#et-footer-nav .bottom-nav li.current-menu-item a {
-    color: #d51a27
-}
-
-body .et_pb_button {}
 
 body.et_pb_button_helper_class .et_pb_button,
 body.et_pb_button_helper_class .et_pb_module.et_pb_button {

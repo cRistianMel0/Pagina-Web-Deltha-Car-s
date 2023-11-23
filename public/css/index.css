@@ -123,7 +123,14 @@
     .title{
         font-size: 5rem;
     }
+
+    .animate-right {
+        display: none; /* Esto hará que el div desaparezca en pantallas pequeñas */
+    }
+
+
 }
+
 
 .trian {
     margin-top: -2px;

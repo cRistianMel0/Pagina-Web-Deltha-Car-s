@@ -139,7 +139,7 @@
   height: 0;
   border-left: 50vw solid transparent;
   border-right: 50vw solid transparent;
-  border-top: 90px solid #ffffff;
+  border-top: 91px solid #ffffff;
 }
 
 .top-container{
@@ -150,4 +150,27 @@
 
 .margin-top{
   margin-top: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .title-container h1{
+    font-size: 5.5rem;
+  }
+
+  .auto-tilte{
+    font-size: 4.5rem;
+  }
+
+  .tabSelector{
+    font-size: 2.3rem;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .center-this{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
 }
